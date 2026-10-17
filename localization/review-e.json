@@ -1,0 +1,139 @@
+[
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+    "translation": "ja/plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+    "words": 1197,
+    "status": "reviewed_source_against_translation",
+    "review_scope": "全原文・全訳を文書ごとに全文照合。金融用語、数値の意味、比較方向、否定、条件、省略を修正。原文の英文テンプレートは完全保持し、隣接する日本語補訳を追加。専門家による実データ・投資判断・法令の検証ではない。",
+    "checks": {
+      "source_matches_upstream_sha": true,
+      "fenced_blocks_match_exactly": true,
+      "frontmatter_matches_exactly": true,
+      "all_source_inline_code_retained": true,
+      "all_source_urls_retained": true,
+      "anchor_count_matches_source_heading_count": true,
+      "anchors_unique": true,
+      "literal_credential_scan_clear": true
+    },
+    "source_sha256": "4db857c27a53141b6ebc38ec9ee7f0020dec59cab084ae6753e53366d118c8ee",
+    "fenced_block_count": 2,
+    "source_heading_count": 21,
+    "translation_anchor_count": 21,
+    "reviewed_at": "2026-10-17",
+    "upstream_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "changes": [
+      "earnings updateを決算更新レポート、revenueを売上高、coveredをカバレッジ対象、initiationをカバレッジ開始に修正。",
+      "beat/miss、thesis、rating、valuation、estimate、marginの金融文脈を修正。",
+      "原文コード2ブロックを完全保持し、出典・参照資料テンプレートに日本語補訳を追加。"
+    ],
+    "numeric_and_negation_checks": [
+      "8-12ページ、英語3,000-5,000語、表1-3、図8-12、24-48時間/1-2日、3か月以内/3か月超を照合。",
+      "比較表の30-50ページ、10,000-15,000語、表12-20、図25-35、3-6週間、背景6-10ページを照合。",
+      "Do NOT use、要約のみ、全財務諸表を載せない、学習データに頼らない、XLS任意の否定・条件を保持。"
+    ],
+    "source_ambiguities_document": "localization/REVIEW-E.ja.md"
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+    "translation": "ja/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+    "words": 1497,
+    "status": "reviewed_source_against_translation",
+    "review_scope": "全原文・全訳を文書ごとに全文照合。金融用語、数値の意味、比較方向、否定、条件、省略を修正。原文の英文テンプレートは完全保持し、隣接する日本語補訳を追加。専門家による実データ・投資判断・法令の検証ではない。",
+    "checks": {
+      "source_matches_upstream_sha": true,
+      "fenced_blocks_match_exactly": true,
+      "frontmatter_matches_exactly": true,
+      "all_source_inline_code_retained": true,
+      "all_source_urls_retained": true,
+      "anchor_count_matches_source_heading_count": true,
+      "anchors_unique": true,
+      "literal_credential_scan_clear": true
+    },
+    "source_sha256": "a688e6b53d408fcfc36cb5490e9e2a75b82789f876f14ba22119bf19db655d09",
+    "fenced_block_count": 1,
+    "source_heading_count": 16,
+    "translation_anchor_count": 16,
+    "reviewed_at": "2026-10-17",
+    "upstream_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "changes": [
+      "4見出し例の意味を修正。DTC、OW/PT、in-line、Buy推奨継続、強弱入り交じる四半期を保持。",
+      "callを電話応答ではなく決算説明会、10-Qを第10四半期ではなく提出書類、vs./versusを英語表記規則として修正。",
+      "全文を書き直して各品質チェックの条件・否定・出典要件を保持。納品概要の原文テンプレートと日本語補訳を併記。"
+    ],
+    "numeric_and_negation_checks": [
+      "例示の目標株価95/285/185ドル、売上高12億ドルと1億5,000万ドル超過、1億2,000万ドル/3%超過、5%超を照合。",
+      "24-48時間、5日以上、8-12ページ、1-3表、8-12図、抜取3-4点、48時間超、直近1-3か月/6か月以上前を照合。",
+      "会社見通しがない場合の明示、目標株価据え置き時の明記、発表前コンセンサス、変更が正当化される場合、禁止事項の否定を保持。"
+    ],
+    "source_ambiguities_document": "localization/REVIEW-E.ja.md"
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+    "translation": "ja/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+    "words": 1436,
+    "status": "reviewed_source_against_translation",
+    "review_scope": "全原文・全訳を文書ごとに全文照合。金融用語、数値の意味、比較方向、否定、条件、省略を修正。原文の英文テンプレートは完全保持し、隣接する日本語補訳を追加。専門家による実データ・投資判断・法令の検証ではない。",
+    "checks": {
+      "source_matches_upstream_sha": true,
+      "fenced_blocks_match_exactly": true,
+      "frontmatter_matches_exactly": true,
+      "all_source_inline_code_retained": true,
+      "all_source_urls_retained": true,
+      "anchor_count_matches_source_heading_count": true,
+      "anchors_unique": true,
+      "literal_credential_scan_clear": true
+    },
+    "source_sha256": "60da5bd7cde0d93f197d21618bf801978022c4b24b91f2ed9ba21eb2945dc586",
+    "fenced_block_count": 16,
+    "source_heading_count": 30,
+    "translation_anchor_count": 30,
+    "reviewed_at": "2026-10-17",
+    "upstream_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "changes": [
+      "Streetを道路・街頭ではなく市場予想、sequentialを今後ではなく前四半期比、below-the-lineを営業利益より下の損益項目に修正。",
+      "thesis、valuation、price target walk、call transcript、gross margin等を金融文脈に修正。",
+      "16原文テンプレートを完全保持し、すべてに隣接する日本語補訳を追加。例示の金額・日付・比較方向・調整後とGAAPの区別を保持。"
+    ],
+    "numeric_and_negation_checks": [
+      "ページ1、2-3、4-5、6-7、8-10、11-12、分析1-2ページ、リスク0.5ページ、150-200語、各図数を照合。",
+      "24.5億対23.9億ドル、6,000万ドル/2.5%、95-97億から98-100億ドル、23%増/845社/128%、11月6/7/8日、8月8日、23ページ/スライド8を照合。",
+      "調整後対GAAP、前年同期比対前四半期比、従来対新、引き上げ/維持/引き下げ、支持/疑問、任意付録を保持。"
+    ],
+    "source_ambiguities_document": "localization/REVIEW-E.ja.md"
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md",
+    "translation": "ja/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md",
+    "words": 3187,
+    "status": "reviewed_source_against_translation",
+    "review_scope": "全原文・全訳を文書ごとに全文照合。金融用語、数値の意味、比較方向、否定、条件、省略を修正。原文の英文テンプレートは完全保持し、隣接する日本語補訳を追加。専門家による実データ・投資判断・法令の検証ではない。",
+    "checks": {
+      "source_matches_upstream_sha": true,
+      "fenced_blocks_match_exactly": true,
+      "frontmatter_matches_exactly": true,
+      "all_source_inline_code_retained": true,
+      "all_source_urls_retained": true,
+      "anchor_count_matches_source_heading_count": true,
+      "anchors_unique": true,
+      "literal_credential_scan_clear": true
+    },
+    "source_sha256": "c8922b00e1f7fbbb23afc7601430bbb9c8bf0ac995f478bdd3b368aad6cf0a01",
+    "fenced_block_count": 4,
+    "source_heading_count": 23,
+    "translation_anchor_count": 23,
+    "reviewed_at": "2026-10-17",
+    "upstream_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "changes": [
+      "sandbagging/beatingをサンドバッグ・暴行ではなく保守的見通し・見通し超過実績に修正。call/transcript、Street、year after、旧新年度の誤訳を修正。",
+      "3か月超・90日超を以上から超へ修正し、±1日、決算前コンセンサス、予想比の投資評価条件、5%超と5%未満を保持。",
+      "4原文テンプレートを完全保持し、日本語補訳を追加。135億ドル、131億ドル、132億ドル、4億ドル/3億ドル、18%/12%、卸売5%減/横ばい、DTC42%/38%を照合。"
+    ],
+    "numeric_and_negation_checks": [
+      "3か月より前、90日超、4か月以上、2023年以前/2024年以降、提出1-5日後、±1日、5%超と5%未満を照合。",
+      "四社会計年度カレンダー、各フェーズ所要時間、8-12四半期/図、8-12ページ、1-3表、24-48時間を照合。",
+      "135億/131億/132億ドル、4億/3億ドル、3%/2%、18%/12%、5%減/横ばい、42%/38%を原文と照合。",
+      "最新検索を実施していない場合の停止、ガイダンスなし、企業固有対業界全体、当期/翌期/翌々期、予想比と見通し引き上げ/引き下げに応じた投資評価の方向を保持。"
+    ],
+    "source_ambiguities_document": "localization/REVIEW-E.ja.md"
+  }
+]

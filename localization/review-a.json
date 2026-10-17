@@ -1,0 +1,431 @@
+{
+  "reviewed": [
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/audit-xls/SKILL.md",
+      "words": 1057,
+      "status": "source_and_translation_compared",
+      "changes": 35,
+      "notes": "Corrected WC/COGS/margins/returns terminology, reversed-priority negation, DCF unlevered requirement, cash sweep, foregone interest, model-only scope and report prohibition.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md",
+      "words": 276,
+      "status": "source_and_translation_compared",
+      "changes": 5,
+      "notes": "Verified output paths, headless-only fallback and no-append restriction; clarified formula/input/check requirements.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/SKILL.md",
+      "words": 1877,
+      "status": "source_and_translation_compared",
+      "changes": 24,
+      "notes": "Verified two-phase outline approval, unchanged-values rule, source hierarchy, all font/chart thresholds, competitor completeness and investment-only scenario branch; repaired workflow negation and M&A multiples.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/frameworks.md",
+      "words": 62,
+      "status": "source_and_translation_compared",
+      "changes": 4,
+      "notes": "Checked every axis pair; corrected healthcare setting and vertical industry focus.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/schemas.md",
+      "words": 129,
+      "status": "source_and_translation_compared",
+      "changes": 8,
+      "notes": "Restored MMM YYYY date placeholder and EV/Revenue multiple identifier; bull/bear scenarios corrected; diagram preserved.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/pptx-author/SKILL.md",
+      "words": 270,
+      "status": "source_and_translation_compared",
+      "changes": 3,
+      "notes": "Verified one idea per slide, exact source cell reference, PNG fidelity rule and no-send prohibition.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/SKILL.md",
+      "words": 3340,
+      "status": "source_and_translation_compared",
+      "changes": 78,
+      "notes": "Compared full model lifecycle, formulas-only invariant, all six user checkpoints, optional margins/credit branches, period/sign/units and hierarchy thresholds; corrected formula divisions, below-position wording, WC, NOL use amount and source trace controls. Original RE/SBC and tax inconsistencies retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formatting.md",
+      "words": 777,
+      "status": "source_and_translation_compared",
+      "changes": 9,
+      "notes": "Verified all credit and margin numerical thresholds and conditional-format rules; corrected margin-versus-amount and leverage multiples.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md",
+      "words": 1270,
+      "status": "source_and_translation_compared",
+      "changes": 13,
+      "notes": "Compared all original formula blocks and prose; restored financial margin meaning and net-revenue requirement; original SBC/RE and NOL/NI formulas retained as source issues.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/sec-filings.md",
+      "words": 761,
+      "status": "source_and_translation_compared",
+      "changes": 28,
+      "notes": "Verified SEC-only use condition, 10-K/10-Q sections and 3-year history requirement; restored currency indicators and restatement instruction; corrected COGS and notes/breakdown terminology.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/comps-analysis/SKILL.md",
+      "words": 4231,
+      "status": "source_and_translation_compared",
+      "changes": 40,
+      "notes": "Full source/prose comparison; repaired exclusive-source direction, format precedence, gross-margin amounts, FCF conversion, statistical percentile meaning, rich-vs-cheap and outlier distance. All original numeric thresholds and source assertions kept, including questionable EBITDA/margin definitions and size-statistics example.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md",
+      "words": 6992,
+      "status": "source_and_translation_compared",
+      "changes": 88,
+      "notes": "Compared DCF source prose, all stage checkpoints, odd centered 5x5/7x7 sensitivity axes and 75 full-recalculation cells, precise tax/growth/discount thresholds and debt/cash signs. Fixed final OpEx/revenue reversal, equity-vs-total capital cost, CapEx percentages, discount-factor, scenario selector and terminal-value terminology. Original IF/INDEX, net-debt weighting and formatting contradictions retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/TROUBLESHOOTING.md",
+      "words": 239,
+      "status": "source_and_translation_compared",
+      "changes": 11,
+      "notes": "Checked all three diagnostic trigger alternatives, zero-divisor formula, terminal 80% and growth<WACC tests, selector 1/2/3 and anchored INDEX/OFFSET checks.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/lbo-model/SKILL.md",
+      "words": 2587,
+      "status": "source_and_translation_compared",
+      "changes": 32,
+      "notes": "Compared full template hierarchy, formulas-only and sign requirements, all checkpoint approvals, debt waterfall/non-negative balances, negative investment/positive proceeds IRR/MOIC, odd centered sensitivity tables and four font colors; corrected returns/cash-sweep/circular-reference mistranslations.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/deck-refresh/SKILL.md",
+      "words": 1047,
+      "status": "source_and_translation_compared",
+      "changes": 12,
+      "notes": "Full read-through: four-phase approval before mutation, old/new/derived mapping, every unit/scale variant, underlying chart data and minimal-format changes; corrected same-intent negation and value/margin/run mistranslations.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/SKILL.md",
+      "words": 629,
+      "status": "source_and_translation_compared",
+      "changes": 7,
+      "notes": "Verified read/report only without editing, normalization and source attribution, trend-data alignment and all three severities; restored 1,000 vs 1K example and no-issues-is-a-finding logic.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/ib-terminology.md",
+      "words": 307,
+      "status": "source_and_translation_compared",
+      "changes": 6,
+      "notes": "Checked all casual/formal pairs; restored English contractions and quantifier examples whose distinction was erased by MT.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/report-format.md",
+      "words": 207,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Reviewed original Markdown report template against retained code block and prose; critical/important/minor distinctions and all four final checks retained. No semantic change required outside preserved template.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/calculation-standards.md",
+      "words": 830,
+      "status": "source_and_translation_compared",
+      "changes": 8,
+      "notes": "Compared CAGR/EV multiples/market-share source formulas and every example, min-max vs central-cluster consensus, rounding and >5% discrepancy rules; fixed 0.1bn scale and approximate-100% meaning. Original example arithmetic retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/formatting-standards.md",
+      "words": 1259,
+      "status": "source_and_translation_compared",
+      "changes": 3,
+      "notes": "Verified all layout constraints, 40-48/18-22/14-16/12-14/10-12/9-11/8-9 point ranges, max 6-7 bullets and 2 lines, actual table/shape object requirements, chart-only paste and aspect-ratio preservation.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/SKILL.md",
+      "words": 2758,
+      "status": "source_and_translation_compared",
+      "changes": 11,
+      "notes": "Compared complete template-population workflow and five phases, 3-cycle escalation, LibreOffice disclaimer, instruction-vs-layout-placeholder distinction, all font/footnote-width/rounding constraints, citation and source-precedence conditions. Fixed create-vs-populate scope, material discrepancy, numbers and 0.1bn scale.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/slide-templates.md",
+      "words": 1597,
+      "status": "source_and_translation_compared",
+      "changes": 11,
+      "notes": "Verified all five slide mappings, source fidelity, chronological Actual/Estimate labels, no-fabrication condition and mismatch handling; restored Year-2 minus sign, section placeholder and implied valuation meaning.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/xml-reference.md",
+      "words": 1186,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Reviewed original XML reference prose and preserved examples; python-pptx-first API rule, targeted-XML-only constraint, backups and per-slide shape-ID scope verified; all EMU conversion values retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/3-statement-model.md",
+      "words": 51,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Compared full command, skill identifier and file-path/template-or-ask branch; clarified financial-statement terminology.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/competitive-analysis.md",
+      "words": 47,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Full command comparison: specified company/industry takes precedence; ask only if argument absent; skill identifier intact.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/comps.md",
+      "words": 587,
+      "status": "source_and_translation_compared",
+      "changes": 6,
+      "notes": "Verified 4-6 peer set, same LTM/FY periods, all raw-input source comments and 5 statistics; fixed board, percentile and gross-margin meanings.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/dcf.md",
+      "words": 502,
+      "status": "source_and_translation_compared",
+      "changes": 12,
+      "notes": "Compared sequential comps-before-DCF workflow, all 5 input bridges and 25x vs12x/50-70% cross-checks; repaired value verb, multiples, percentiles and sensitivity meaning.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/debug-model.md",
+      "words": 73,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Full command comparison: mandatory model scope, all integrity checks and file-path-or-ask branch retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/lbo.md",
+      "words": 55,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Full command comparison: specified deal/company and absent-argument question branch preserved.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/commands/ppt-template.md",
+      "words": 173,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Full command comparison: template file request, reusable skill not deck deliverable, allowed-tools/frontmatter and all 5 steps preserved.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/clean-data-xls/SKILL.md",
+      "words": 438,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Compared full cleaning workflow, formula/helper preference, overwrite-only-if-explicit-or-no-equivalent condition, destructive approval and per-category checkpoints; date/error/numeric examples intact.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/ppt-template-creator/SKILL.md",
+      "words": 1107,
+      "status": "source_and_translation_compared",
+      "changes": 7,
+      "notes": "Checked reusable-skill-only scope, no-presentation branch, content y=1.38/1.90 and reserved0.52in, assets/template.pptx/self-contained SKILL requirements and no manual bullets. Nested source code fences retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/SKILL.md",
+      "words": 2538,
+      "status": "source_and_translation_compared",
+      "changes": 35,
+      "notes": "Compared all skill design and 6 creation steps; corrected domain onboarding, may-not-load condition, >10k reference threshold, deterministic terminology and original CHANGELOG.md filename. 500-line/100-line/<5k thresholds, skip conditions and package validation preserved.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/output-patterns.md",
+      "words": 251,
+      "status": "source_and_translation_compared",
+      "changes": 1,
+      "notes": "Compared strict/flexible templates and example pairs; preserved original fences; restored conventional-commit type identifier in Japanese explanation.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/workflows.md",
+      "words": 113,
+      "status": "source_and_translation_compared",
+      "changes": 1,
+      "notes": "Compared sequential and conditional process examples; restored placement meaning of towards beginning.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/README.md",
+      "words": 343,
+      "status": "source_and_translation_compared",
+      "changes": 12,
+      "notes": "Compared all plugin commands/skills/features and examples; restored exact skill identifiers and EPS accretion/dilution meaning.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/buyer-list.md",
+      "words": 47,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Full short command comparison; retained target-or-ask branch and strategic/financial acquirer universe scope.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/cim.md",
+      "words": 43,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Full command comparison; CIM skill identifier and company-or-request-source-materials branch preserved.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/deal-tracker.md",
+      "words": 28,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Full command comparison; live means ongoing deal pipeline, with status/milestone/action updates.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/merger-model.md",
+      "words": 37,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Full command comparison; specified acquirer+target versus ask-for-details branch retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/one-pager.md",
+      "words": 581,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Compared template discovery/load choices, single slide 4:3 10x7.5in, all quadrant contents and public-company-only holders, preview approval and three deliverables; clarified target-company colors.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/process-letter.md",
+      "words": 47,
+      "status": "source_and_translation_compared",
+      "changes": 2,
+      "notes": "Full command comparison; corrected load-skill-and-draft correspondence action, preserved IOI/final-bid/meeting type branch.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/commands/teaser.md",
+      "words": 42,
+      "status": "source_and_translation_compared",
+      "changes": 0,
+      "notes": "Full command comparison; anonymous teaser creation and absent-company ask branch retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/buyer-list/SKILL.md",
+      "words": 582,
+      "status": "source_and_translation_compared",
+      "changes": 8,
+      "notes": "Checked all strategic/financial buyer categories, 5-10/10-15/10-20 tier counts, contact mapping, seller include/exclude question and 30-40 vs200 quality rule; corrected minority/majority ownership, cold outreach and tapped-out capacity.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/cim-builder/SKILL.md",
+      "words": 588,
+      "status": "source_and_translation_compared",
+      "changes": 6,
+      "notes": "Compared all 8 CIM sections, exact page ranges and 40-60 total, optional budget/QoE, pre-LOI anonymization, seller/legal/management review and no hiding material issues; fixed operations/geographic/diligence meanings.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/deal-tracker/SKILL.md",
+      "words": 569,
+      "status": "source_and_translation_compared",
+      "changes": 10,
+      "notes": "Compared all 18 milestone rows, status/action priorities, weekly cadence and next-two-week view; corrected mandate/engagement/diligence/closing terminology and forecast scope.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/merger-model/SKILL.md",
+      "words": 644,
+      "status": "source_and_translation_compared",
+      "changes": 31,
+      "notes": "Compared complete merger consequences model, inherited net debt, year1-3 pro-forma EPS, all synergy/premium/mix table values and year1 25-50% ramp. Corrected stock=inventory, foregone interest, net-debt assumed and EPS accretion wording; source calculations unchanged.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/process-letter/SKILL.md",
+      "words": 510,
+      "status": "source_and_translation_compared",
+      "changes": 8,
+      "notes": "Verified letter-type branch, IOI7 inputs, binding/nonbinding distinction, final bid8 conditions, no recording, client/legal approval and 2-3/3-4week deadlines; corrected letter/rollover/firm/track-changes meanings.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/teaser/SKILL.md",
+      "words": 449,
+      "status": "source_and_translation_compared",
+      "changes": 6,
+      "notes": "Compared full one-page teaser structure and 6 anonymization prohibitions, region-not-city, distinctive employee counts and small-sector revenue ranges, 3-5/4-6 highlights, legal/client pre-distribution review; corrected recurring and growth-equity terminology.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/datapack-builder/SKILL.md",
+      "words": 3427,
+      "status": "source_and_translation_compared",
+      "changes": 43,
+      "notes": "Compared all 6 phases/8 tabs, money-vs-count format conditions, every normalization add-back restriction and three scenario branches. Fixed explicit year-format and negative-format reversals, expense add-backs, recurring grants, execution risk and financial line-item names. Exact numeric thresholds, no-chart-unless-requested and all source accounting assertions retained.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    },
+    {
+      "source": "plugins/vertical-plugins/investment-banking/skills/strip-profile/SKILL.md",
+      "words": 2391,
+      "status": "source_and_translation_compared",
+      "changes": 16,
+      "notes": "Compared source prose and preserved examples, explicit user approval per slide, seven overlap checks, fix order and no-static-images rule. All coordinates, 4:3 10x7.5in, 0.3in margin, numeric font/density limits retained. Corrected shares, public/private branch, title-case examples, weight and chart types; original density/title-size/layout contradictions noted separately.",
+      "numbers_and_negations": "Compared to original; original inconsistencies retained and logged separately where noted"
+    }
+  ],
+  "scope": "finance_a.json source files only",
+  "method": "Full source and Japanese prose comparison; original code blocks and frontmatter retained",
+  "limitations": [
+    "No financial-data validation or plugin execution"
+  ],
+  "validation": {
+    "files": 51,
+    "source_words": 49951,
+    "source_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+    "originals_unchanged": true,
+    "frontmatter_unchanged": true,
+    "code_block_issues": [],
+    "review_notes": "localization/REVIEW-A.ja.md",
+    "independent_financial_validation": false,
+    "plugin_execution": false,
+    "scope": "51 unique sources only; parent synchronizes duplicate copies",
+    "all_assigned_sources_reviewed": true,
+    "notes": "Original code, frontmatter and source bytes retained; 656 replacement occurrences plus final strict-greater-than boundary correction."
+  }
+}

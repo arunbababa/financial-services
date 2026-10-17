@@ -1,0 +1,629 @@
+[
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md.md",
+    "status": "reviewed",
+    "items": 193,
+    "revised_items": 76,
+    "notes": "WC、報酬、売上原価、負債・資本、加算/控除の誤訳を修正。XX/X%等のプレースホルダー列数と表記を原文に復元。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md.md",
+    "status": "reviewed",
+    "items": 169,
+    "revised_items": 80,
+    "notes": "ターミナルバリュー、非支配持分、類似会社/類似取引、カタリスト、営業レバレッジ等を修正。$10,400Mの桁誤りを訂正し、数式と変数名・金額単位を併記。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md.md",
+    "status": "reviewed",
+    "items": 165,
+    "revised_items": 111,
+    "notes": "NOL、WC、調整項目（plug）、有利子負債/資本、期首/期末、非現金費用等の誤訳を修正。数式・比較演算子・条件・識別子を原文表記で併記。原文の会計処理や税制上の主張そのものは変更せず補訳。 最終再点検で現金/資本の突合、増資、NOL繰越DTAの表示を明確化。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/export-addin-data.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/export-addin-data.ps1.md",
+    "status": "reviewed",
+    "items": 93,
+    "revised_items": 62,
+    "notes": "コピー元とコピー先の区別、NOT/onlyの条件、圧縮検出の限界、チャンク境界、再実行時の整合性、localStorageの共有範囲を文脈に沿って修正。コード断片とパスは原文表記を併記。 既定ポート0は行間にまたがっても明示。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md.md",
+    "status": "reviewed",
+    "items": 114,
+    "revised_items": 39,
+    "notes": "earnings=決算、beat/inline/miss=予想との比較、thesis=投資仮説、Street=市場予想、raised=引き上げ等を修正。複数行に分断された段落を文脈で補正し、欠落した列名・脚注を復元。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/build-manifest.mjs",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/build-manifest.mjs.md",
+    "status": "reviewed",
+    "items": 72,
+    "revised_items": 41,
+    "notes": "コマンド・リージョン・プロバイダー識別子・JSONキーの過剰翻訳を修正。警告のみの検証、秘密情報の格納先、ソブリンクラウドへの認証条件と演算子を正確に補訳。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ppt-template-creator/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ppt-template-creator/SKILL.md.md",
+    "status": "reviewed",
+    "items": 105,
+    "revised_items": 70,
+    "notes": "Python構文・変数名・ファイルパス・TITLE/BODY/idx等の過剰翻訳を原文表記と日本語説明へ置換。while/for/if/elifと代入の意味を修正。実項目数は105。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md.md",
+    "status": "reviewed",
+    "items": 92,
+    "revised_items": 41,
+    "notes": "CSV内の関数引数・値とファイル名の改変を修正し、原文コードと説明を明確化。会社名/役職、Q&Aの重点質問、カテゴリ識別子も補正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/version_bump.py",
+    "supplement": "localization/code-notes/scripts/version_bump.py.md",
+    "status": "reviewed",
+    "items": 26,
+    "revised_items": 12,
+    "notes": "主説明の否定と更新回数の逆転を全面修正。--apply/--check、基準より厳密に大きい条件、失敗時None、例外、パス・型抑制識別子を訂正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/comps-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/comps-analysis/SKILL.md.md",
+    "status": "reviewed",
+    "items": 39,
+    "revised_items": 11,
+    "notes": "Margin=利益率、Mkt Cap=時価総額、Operating=事業、百分位を修正。GOOGLティッカーを復元。式・数値は維持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/scripts/extract_numbers.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/scripts/extract_numbers.py.md",
+    "status": "reviewed",
+    "items": 60,
+    "revised_items": 12,
+    "notes": "実行例のオプション/ファイル名と正規表現を原文表記へ復元。multiple、top line、単位語、数値の用語を修正。5%・年の除外条件は保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/deploy-managed-agent.sh",
+    "supplement": "localization/code-notes/scripts/deploy-managed-agent.sh.md",
+    "status": "reviewed",
+    "items": 66,
+    "revised_items": 48,
+    "notes": "jq/シェル/HTTPヘッダーの識別子改変と翻訳残骸を修正。JSON展開、アップロード、API呼び出し前の処理の意味を説明。元コードは未実行。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md.md",
+    "status": "reviewed",
+    "items": 42,
+    "revised_items": 20,
+    "notes": "売上高の予想超過の比較先・金額・差分を修正。DTC、Takeaway、earnings、投資判断の用語を補正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/commands/earnings.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/commands/earnings.md.md",
+    "status": "reviewed",
+    "items": 34,
+    "revised_items": 12,
+    "notes": "決算、投資仮説、予想超過、material=重要性、決算説明会の訳を修正。価格レンジと比較先を保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/quick_validate.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/quick_validate.py.md",
+    "status": "reviewed",
+    "items": 37,
+    "revised_items": 6,
+    "notes": "frontmatter、name/descriptionキー、hyphen-caseの意味を訂正し、実行構文を復元。禁止条件と64/1024文字上限は維持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/calculation-standards.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/calculation-standards.md.md",
+    "status": "reviewed",
+    "items": 23,
+    "revised_items": 10,
+    "notes": "評価倍率とコンセンサスの意味、丸め単位を明確化。式・変数名を原文表記と併記。提示例の数値は変更しない。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/SKILL.md.md",
+    "status": "reviewed",
+    "items": 35,
+    "revised_items": 21,
+    "notes": "ツリー図の枝記号・ファイル名・ディレクトリ名・YAMLキーを原文保持し、日本語説明を添付。sales opportunitiesとtracked changesを修正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/commands/comps.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/commands/comps.md.md",
+    "status": "reviewed",
+    "items": 15,
+    "revised_items": 6,
+    "notes": "表見出しのGross/Margin、時価総額、百分位、行と列の誤訳を補正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/export-data.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/export-data.md.md",
+    "status": "reviewed",
+    "items": 23,
+    "revised_items": 23,
+    "notes": "図とパスは原文のまま併記。プロファイル全体が全オリジンを含む条件の否定反転を修正。オリジンとマニフェストの関係、SQL関数/識別子を復元。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "CLAUDE.md",
+    "supplement": "localization/code-notes/CLAUDE.md.md",
+    "status": "reviewed",
+    "items": 21,
+    "revised_items": 21,
+    "notes": "ディレクトリ/ファイル名、大小文字とツリー記号の改変を修正。FSI分野別原本と同梱コピーの区別を保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md.md",
+    "status": "reviewed",
+    "items": 36,
+    "revised_items": 5,
+    "notes": "Management Team=経営陣、bio=経歴、Governance section=節、Go-to-Market=市場開拓・販売戦略を修正。分量と人数の指定は維持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/orchestrate.py",
+    "supplement": "localization/code-notes/scripts/orchestrate.py.md",
+    "status": "reviewed",
+    "items": 5,
+    "revised_items": 4,
+    "notes": "参考実装と本番実装の否定反転、信頼できない文書からhandoff_requestが混入する脅威、allowlistとschema検証の対象、型指定SSEの意味を修正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/commands/one-pager.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/commands/one-pager.md.md",
+    "status": "reviewed",
+    "items": 14,
+    "revised_items": 3,
+    "notes": "Ownership=株主構成、Rev=売上高、Margin=利益率を修正。表の数値・割合は維持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/strip-profile/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/strip-profile/SKILL.md.md",
+    "status": "reviewed",
+    "items": 31,
+    "revised_items": 9,
+    "notes": "図中の象限、寸法断片の意味を補正。chartColors、color、options、bold、fillの識別子を原文表記で保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/app.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/app.py.md",
+    "status": "reviewed",
+    "items": 10,
+    "revised_items": 5,
+    "notes": "認証トークン検証・利用権限決定の文脈、Bearerトークン、IdP/HRIS代替処理の説明を補正。設定ファイル境界を保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/sideload-addin.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/sideload-addin.sh.md",
+    "status": "reviewed",
+    "items": 16,
+    "revised_items": 5,
+    "notes": "コピー先ファイル名の係り先、追加操作・冪等・ドライランなしの意味を明確化。実行例の大文字化を修正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md.md",
+    "status": "reviewed",
+    "items": 19,
+    "revised_items": 10,
+    "notes": "Takeaway=重要なポイント、earnings=決算、beat/miss=予想超過/未達、投資判断の改定方向を修正。出力ファイル名を保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/README.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/README.md.md",
+    "status": "reviewed",
+    "items": 14,
+    "revised_items": 7,
+    "notes": "accretion/dilution、sources and uses、sensitivity、ownershipの金融用語を修正。コマンド構文は原文表記を併記。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md.md",
+    "status": "reviewed",
+    "items": 13,
+    "revised_items": 3,
+    "notes": "earnings資料と決算説明会の書き起こしの誤訳を修正。引用日・出典URLは維持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/workflows.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/workflows.md.md",
+    "status": "reviewed",
+    "items": 11,
+    "revised_items": 0,
+    "notes": "全11項目を照合。手順順序、条件分岐、スクリプト/JSON名に意味の誤りなし。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/debug.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/debug.md.md",
+    "status": "reviewed",
+    "items": 14,
+    "revised_items": 4,
+    "notes": "未翻訳の出力テンプレートの意味を補足。プレースホルダーと削除対象のID限定条件は保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/validate.py",
+    "supplement": "localization/code-notes/scripts/validate.py.md",
+    "status": "reviewed",
+    "items": 1,
+    "revised_items": 1,
+    "notes": "ハーネス、読み取り担当サブエージェント、スキーマ抽出箇所の説明を補正。APIの時間依存の記述は原文説明として扱い、終了コードを保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/setup.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/setup.md.md",
+    "status": "reviewed",
+    "items": 11,
+    "revised_items": 9,
+    "notes": "AWS検証の目的、aud条件、Authorization/Content-Typeヘッダーの過剰翻訳を修正。トークンのプレースホルダーは保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/formatting-standards.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/formatting-standards.md.md",
+    "status": "reviewed",
+    "items": 9,
+    "revised_items": 1,
+    "notes": "固有名詞Speexx/Learnshipの誤変換を修正。他の8項目は意味・固有名詞を照合。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md.md",
+    "status": "reviewed",
+    "items": 7,
+    "revised_items": 5,
+    "notes": "Beginning/Ending capital、capital calls、carried interest、crystallizedの誤訳を修正。LP比率の式と符号を保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/mint_dev_token.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/mint_dev_token.py.md",
+    "status": "reviewed",
+    "items": 1,
+    "revised_items": 1,
+    "notes": "全1項目を照合。自己署名の開発用トークン、初回生成と後続再利用を保持し、実行例のプレースホルダーが表示されるようフェンス化。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/manifest.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/manifest.md.md",
+    "status": "reviewed",
+    "items": 5,
+    "revised_items": 2,
+    "notes": "モデル名OpusとBearerスキームの誤訳を修正。モデルIDとラベルを分けるJSON構造は保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/pptx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/pptx-author/SKILL.md.md",
+    "status": "reviewed",
+    "items": 4,
+    "revised_items": 1,
+    "notes": "Presentation識別子の過剰翻訳を修正。他3項目は意味を照合。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md.md",
+    "status": "reviewed",
+    "items": 3,
+    "revised_items": 3,
+    "notes": "KYC区分の機械値を原文保持し、各値の意味とPEP/EDDを補足。rule 4.2の確定条件は保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/schemas.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/schemas.md.md",
+    "status": "reviewed",
+    "items": 3,
+    "revised_items": 0,
+    "notes": "全3項目を照合。topicとinsight headlineの区別、内容欄、出典・日付の意味は保持。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/update-user-attrs.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/update-user-attrs.md.md",
+    "status": "reviewed",
+    "items": 4,
+    "revised_items": 1,
+    "notes": "FAILを原文表記で併記。全4項目のPowerShell変数と成功/失敗記号を照合。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/README.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/README.md.md",
+    "status": "reviewed",
+    "items": 3,
+    "revised_items": 2,
+    "notes": "HTTPヘッダー名、Bearer認証スキーム、User-Agent値の過剰翻訳を修正。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/.claude/skills/verify/SKILL.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/.claude/skills/verify/SKILL.md.md",
+    "status": "reviewed",
+    "items": 1,
+    "revised_items": 1,
+    "notes": "全1項目を照合。書式文字列を変更せず日本語で役割を補足。"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/init_skill.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/init_skill.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/export-addin-data.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/export-addin-data.sh.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/clear-addin-cache.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/clear-addin-cache.sh.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/check.py",
+    "supplement": "localization/code-notes/scripts/check.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/clear-addin-cache.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/clear-addin-cache.ps1.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/scripts/validate_dcf.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/dcf-model/scripts/validate_dcf.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/partner-built/spglobal/skills/funding-digest/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/funding-digest/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/package_skill.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/package_skill.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/config.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/config.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/output-patterns.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/output-patterns.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/report-format.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/report-format.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/deck-refresh/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/deck-refresh/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/commands/dcf.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/commands/dcf.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "README.md",
+    "supplement": "localization/code-notes/README.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/bootstrap.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/bootstrap.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/commands/access-policies.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/access-policies.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/sync-agent-skills.py",
+    "supplement": "localization/code-notes/scripts/sync-agent-skills.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": ".githooks/pre-commit",
+    "supplement": "localization/code-notes/.githooks/pre-commit.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/get_tenant_id.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/get_tenant_id.py.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/datapack-builder/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/datapack-builder/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "scripts/test-cookbooks.sh",
+    "supplement": "localization/code-notes/scripts/test-cookbooks.sh.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "claude-for-msft-365-install/scripts/sideload-addin.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/sideload-addin.ps1.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/xml-reference.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/xml-reference.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md.md",
+    "status": "reviewed"
+  },
+  {
+    "repo": "financial-services",
+    "source": "plugins/partner-built/lseg/README.md",
+    "supplement": "localization/code-notes/plugins/partner-built/lseg/README.md.md",
+    "status": "reviewed"
+  }
+]

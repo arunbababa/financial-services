@@ -1,0 +1,694 @@
+{
+  "upstream_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "reviewer": "Codex subagent finance_review",
+  "method": "Read each source and Japanese prose in order, repair mistranslations and omissions, check financial terms, negation, authorization boundaries, numbers and dates, preserve code and configuration. YAML descriptions retained in English frontmatter and checked Japanese glosses separately.",
+  "reviewed_source_count": 35,
+  "reviewed_sources": [
+    "CLAUDE.md",
+    "README.md",
+    "claude-for-msft-365-install/.claude/skills/verify/SKILL.md",
+    "claude-for-msft-365-install/README.md",
+    "claude-for-msft-365-install/commands/access-policies.md",
+    "claude-for-msft-365-install/commands/bootstrap.md",
+    "claude-for-msft-365-install/commands/consent.md",
+    "claude-for-msft-365-install/commands/debug.md",
+    "claude-for-msft-365-install/commands/entra-app.md",
+    "claude-for-msft-365-install/commands/export-data.md",
+    "claude-for-msft-365-install/commands/manifest.md",
+    "claude-for-msft-365-install/commands/setup.md",
+    "claude-for-msft-365-install/commands/update-user-attrs.md",
+    "claude-for-msft-365-install/examples/python-bootstrap/README.md",
+    "managed-agent-cookbooks/README.md",
+    "managed-agent-cookbooks/earnings-reviewer/README.md",
+    "managed-agent-cookbooks/gl-reconciler/README.md",
+    "managed-agent-cookbooks/kyc-screener/README.md",
+    "managed-agent-cookbooks/market-researcher/README.md",
+    "managed-agent-cookbooks/meeting-prep-agent/README.md",
+    "managed-agent-cookbooks/model-builder/README.md",
+    "managed-agent-cookbooks/month-end-closer/README.md",
+    "managed-agent-cookbooks/pitch-agent/README.md",
+    "managed-agent-cookbooks/statement-auditor/README.md",
+    "managed-agent-cookbooks/valuation-reviewer/README.md",
+    "plugins/partner-built/spglobal/README.md",
+    "plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md",
+    "plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md",
+    "plugins/partner-built/spglobal/skills/funding-digest/SKILL.md",
+    "plugins/partner-built/spglobal/skills/funding-digest/references/sector-seeds.md",
+    "plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md",
+    "plugins/partner-built/spglobal/skills/tear-sheet/references/corp-dev.md",
+    "plugins/partner-built/spglobal/skills/tear-sheet/references/equity-research.md",
+    "plugins/partner-built/spglobal/skills/tear-sheet/references/ib-ma.md",
+    "plugins/partner-built/spglobal/skills/tear-sheet/references/sales-bd.md"
+  ],
+  "review_scope": [
+    "root CLAUDE and README",
+    "Microsoft 365 installation documentation",
+    "Managed Agent cookbook READMEs",
+    "S&P Global partner plugin prose"
+  ],
+  "limits": [
+    "LLM source comparison, not licensed financial/accounting/legal/regulatory specialist review",
+    "No real financial data, provider API, plugin, Office deployment or upstream script was executed",
+    "Code fence natural-language glosses are handled separately in CODE-AND-FENCE-NOTES.ja.md",
+    "Source contradictions and stale source assertions are documented, not silently repaired"
+  ],
+  "documents": [
+    {
+      "source": "CLAUDE.md",
+      "translation": "ja/CLAUDE.md",
+      "source_sha256": "cc799185f4a95fce6fcae31169dc7edc93282d36bbc4882f601143845a8c235a",
+      "translation_sha256": "773d050beacc68ecadd1800c932061deb52dc8b933a6223c8d557a0ff5fd5996",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 5,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 4,
+        "translated_original_heading_anchor_count": 4
+      }
+    },
+    {
+      "source": "README.md",
+      "translation": "ja/README.md",
+      "source_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "translation_sha256": "b520691f5a5960e859e1d8fd1da97e244deae50d46b9c56c82b4f21e06ad7478",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 79,
+      "code_fence_count": 4,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 15,
+        "translated_original_heading_anchor_count": 15
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/.claude/skills/verify/SKILL.md",
+      "translation": "ja/claude-for-msft-365-install/.claude/skills/verify/SKILL.md",
+      "source_sha256": "71b261fbecf736c55e6f2a17e57a2763638e5b3a64a8c90128800dd1efc18028",
+      "translation_sha256": "b114384d9541cf073a2d1c77ea43815b6514194c6a2f3bf16ef9f54dc5b66b39",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 35,
+      "code_fence_count": 4,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/README.md",
+      "translation": "ja/claude-for-msft-365-install/README.md",
+      "source_sha256": "37b9c904b510cd300442997ef76b54b018fe192465359ca3dcfb65727da425f6",
+      "translation_sha256": "7bc8e437feb43a36cbfbff58b420ea3ff68966d58ca02b6a32fb7c12e50f382e",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 15,
+      "code_fence_count": 5,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 6,
+        "translated_original_heading_anchor_count": 6
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/access-policies.md",
+      "translation": "ja/claude-for-msft-365-install/commands/access-policies.md",
+      "source_sha256": "0e6b8bf8ad2bed4aa2cf93fc013721175f8fff1c0f33b8f08d687b0a1799aeba",
+      "translation_sha256": "644f5d8132265bbb3f3bbf4ff8bd4355fdec956c88a7687fa8b10967cec3fd37",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 116,
+      "code_fence_count": 10,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 6,
+        "translated_original_heading_anchor_count": 6
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/bootstrap.md",
+      "translation": "ja/claude-for-msft-365-install/commands/bootstrap.md",
+      "source_sha256": "5dbe9ffa03b03cecf5faaf53b12de001a6520de04d186f91b6090bf042415db8",
+      "translation_sha256": "73066bccc3a64f0128f0932e90232e0557a2281df08058e9a45380e2a161300a",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 102,
+      "code_fence_count": 12,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 17,
+        "translated_original_heading_anchor_count": 17
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/consent.md",
+      "translation": "ja/claude-for-msft-365-install/commands/consent.md",
+      "source_sha256": "d34c4dada78b443386cec900dcd6301819d76309c337d3cb800f8d4e43dcde1f",
+      "translation_sha256": "f6b2d372edc423f36f0e489e548ef8980122ba7b83c077c8e1a61fdf69ae614e",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 24,
+      "code_fence_count": 3,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 4,
+        "translated_original_heading_anchor_count": 4
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/debug.md",
+      "translation": "ja/claude-for-msft-365-install/commands/debug.md",
+      "source_sha256": "68128b967a2232e93520bd66594d9691b5564ebc457ec30ff67bc7f61b6db9c0",
+      "translation_sha256": "ef67488c19c56b54b05fc87be697ac87333b6463dae82f2ce0d534d6181b9352",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 161,
+      "code_fence_count": 7,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 14,
+        "translated_original_heading_anchor_count": 14
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/entra-app.md",
+      "translation": "ja/claude-for-msft-365-install/commands/entra-app.md",
+      "source_sha256": "38b3db05b54bd4f404d8c31ffee635365ff5c66a33cc320f17f029a439a65a89",
+      "translation_sha256": "1b2e91454e2c49ec4344421b5ee6656f16750858891dc9d19822a7b6aab31ab2",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 36,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 8,
+        "translated_original_heading_anchor_count": 8
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/export-data.md",
+      "translation": "ja/claude-for-msft-365-install/commands/export-data.md",
+      "source_sha256": "c71e742c7aa51c8c7e9856af40fd6595ee1cb4fb3dc5efbd445e8f96f0b7e466",
+      "translation_sha256": "c3cd28f9c7c5dfc5a3f7c91daa0e7a6da0bc67fad79b85c53248224220e8e427",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 56,
+      "code_fence_count": 9,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 7,
+        "translated_original_heading_anchor_count": 7
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/manifest.md",
+      "translation": "ja/claude-for-msft-365-install/commands/manifest.md",
+      "source_sha256": "16e9aee2a0325742b2c27c3bda74844a2062fa330db47a7e236d2e28bd045e67",
+      "translation_sha256": "aa4bb4b20c17d4c56c025efb21c428b6686e4c0ce8a378b99f6f2b9c611555af",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 86,
+      "code_fence_count": 11,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 20,
+        "translated_original_heading_anchor_count": 20
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/setup.md",
+      "translation": "ja/claude-for-msft-365-install/commands/setup.md",
+      "source_sha256": "4afae1c4f349efe9c690859467d5ea89acf994ef6dc0f53eff5e28cd6b31c72b",
+      "translation_sha256": "b149bf631fe8dbb657502970d969dfca78650fe6e5eb8ecec303c44a9a01a69b",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 54,
+      "code_fence_count": 7,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 20,
+        "translated_original_heading_anchor_count": 20
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/commands/update-user-attrs.md",
+      "translation": "ja/claude-for-msft-365-install/commands/update-user-attrs.md",
+      "source_sha256": "f0fe63811503a6f54ca90b8c8d929241430667a547d55354138bd62597a5e16e",
+      "translation_sha256": "00111361adc52b987a1ae78b282dfb7ecab381de6fe957b83da7add40b255aac",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 13,
+      "code_fence_count": 6,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 4,
+        "translated_original_heading_anchor_count": 4
+      }
+    },
+    {
+      "source": "claude-for-msft-365-install/examples/python-bootstrap/README.md",
+      "translation": "ja/claude-for-msft-365-install/examples/python-bootstrap/README.md",
+      "source_sha256": "5d9e39ace63fc5f2b1d3afc4dbe6d76162e6d7df1db99856b77468f52c699f45",
+      "translation_sha256": "1be738d6275d9cce895b4f89c2774d1a7a9a7771504d722f72f637d55621e704",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 7,
+      "code_fence_count": 2,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/README.md",
+      "translation": "ja/managed-agent-cookbooks/README.md",
+      "source_sha256": "5d182993ab6768552ece5d1014dde48d8c2bf7f02fe988255a11924eaa8c8c65",
+      "translation_sha256": "5c35d258704ca1af2ea0e3af6ee8241f98d190640890846a96948d49307dc652",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 16,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 3,
+        "translated_original_heading_anchor_count": 3
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/earnings-reviewer/README.md",
+      "translation": "ja/managed-agent-cookbooks/earnings-reviewer/README.md",
+      "source_sha256": "90853190da1e72ecc38a57a5de5cbe64442a57063034ed54f97631dd6f577441",
+      "translation_sha256": "42c9da7e9c37aa4d75deef70b4b7e1e49184b896cdd40b7b78a4c576c6e983d2",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 4,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/gl-reconciler/README.md",
+      "translation": "ja/managed-agent-cookbooks/gl-reconciler/README.md",
+      "source_sha256": "745b75ba310efe6ab20458585875f77af4f213bb8d284b209269ff48209a7280",
+      "translation_sha256": "1c71d06ca7d3ce60befd0ab4fc5b16088cc8debf510ad862c160a1cef0330518",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 6,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/kyc-screener/README.md",
+      "translation": "ja/managed-agent-cookbooks/kyc-screener/README.md",
+      "source_sha256": "515183a63bff982aa0b1b109154d7d169ebbcea82f8f58f90688ba117dbe053a",
+      "translation_sha256": "6598d1d96e83140cd7142701bac7a08aff35f894fb246c91410e35217230434d",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 3,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/market-researcher/README.md",
+      "translation": "ja/managed-agent-cookbooks/market-researcher/README.md",
+      "source_sha256": "05e5e887f49f00b34ac695ba4e523e1a572ef3e6ce6320ab9b27e174cb3be125",
+      "translation_sha256": "ef36881b82cf813652add9424f9dea75ab7f7b10d10257fad484ae4a5895e915",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 4,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/meeting-prep-agent/README.md",
+      "translation": "ja/managed-agent-cookbooks/meeting-prep-agent/README.md",
+      "source_sha256": "213fe1d5a97b7c8f872115867cec604cca3e17a5f363b107d04f343ee5094191",
+      "translation_sha256": "b84abc09d91bbcef4bbf8ccbf26f27bf63858709100657e87ee89b1e091d8ef5",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 3,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/model-builder/README.md",
+      "translation": "ja/managed-agent-cookbooks/model-builder/README.md",
+      "source_sha256": "78be8f88e47a23fd4b7cfddfbf9cb8de1e7bc055da370b1f49e02132c49504c4",
+      "translation_sha256": "b3cb9a6a6a7d4175be643007bbc402463ef39d319ec987f024d503d92b0be6c6",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 3,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/month-end-closer/README.md",
+      "translation": "ja/managed-agent-cookbooks/month-end-closer/README.md",
+      "source_sha256": "c3077e4bb5473fced7779ee34855b44ee1b3ed10a180dd07679806fdb32207d5",
+      "translation_sha256": "cf6408ed52358b1d55982a89ef729db0345971ed573c62c8636e0b3266a61dcb",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 5,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/pitch-agent/README.md",
+      "translation": "ja/managed-agent-cookbooks/pitch-agent/README.md",
+      "source_sha256": "a777f737831ee37b825ae8dd39ada2818147d78ddc000e04f533320a4dd48c27",
+      "translation_sha256": "03bb6c233bd5ab71aa8824665607224acf3da11142fb6a5cb9b6b8be2822468c",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 4,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/statement-auditor/README.md",
+      "translation": "ja/managed-agent-cookbooks/statement-auditor/README.md",
+      "source_sha256": "d4f99c2cd0d0a1f8e2b23872b6bfc83248ae8fca14a5ec0754f90e8f2c69eafc",
+      "translation_sha256": "989444272a7ab409b03770b067c71b093b5f753f188655d8cd1a04facfc9f0d0",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 4,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "managed-agent-cookbooks/valuation-reviewer/README.md",
+      "translation": "ja/managed-agent-cookbooks/valuation-reviewer/README.md",
+      "source_sha256": "18553caa681238d27b91b6cd13103260b1204b1d29e9ad035b8f8b524878780c",
+      "translation_sha256": "ee0658d037c990d533d0b7eb68e00bd40ed8acc56fb48c0d3808605d98e9191a",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 5,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 5,
+        "translated_original_heading_anchor_count": 5
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/README.md",
+      "translation": "ja/plugins/partner-built/spglobal/README.md",
+      "source_sha256": "943dd185712ad59dc250f61b1002462cf9c9f156f5788c6cf008287b638a793c",
+      "translation_sha256": "2b391353138b5c4cdd555175838758b55dc5544c73d910405b0d4f476398c2e5",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 10,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 12,
+        "translated_original_heading_anchor_count": 12
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md",
+      "source_sha256": "7580388cc4435530324b9e657a401839fbbf25b054dd912840225a4e334bb001",
+      "translation_sha256": "89b722b48119cbefec5d3ea0f83b21b69d8f5cb36d495e7d59328283c7080950",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 39,
+      "code_fence_count": 13,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 11,
+        "translated_original_heading_anchor_count": 11
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md",
+      "source_sha256": "8e2000571c615a4b6b66c85d487007ee2bf2e7fd3463103070eb6b174e6a64be",
+      "translation_sha256": "5024802b75fc5314976ba30c41eff300f03d106fb49339deb7990d414ed34b89",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 14,
+      "code_fence_count": 1,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 19,
+        "translated_original_heading_anchor_count": 19
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/funding-digest/SKILL.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/funding-digest/SKILL.md",
+      "source_sha256": "ac7ef73273277ddabe83dd63324be07ebbba5f8ca8d04e5fd7db5ec1973fa615",
+      "translation_sha256": "6dac61d000c6f0eb9ae5fa335e645060005eec36e2b833de889b17b25512b52e",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 36,
+      "code_fence_count": 16,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 31,
+        "translated_original_heading_anchor_count": 31
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/funding-digest/references/sector-seeds.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/funding-digest/references/sector-seeds.md",
+      "source_sha256": "cfd70496a5823d4d2b95626e043c2e4c3e2f5f55f9f2a4e3c834d44c6a1205e9",
+      "translation_sha256": "a7c630a2ee4cdb5b3fa558e10bd7b782010893007c7ade3e34191bc9a80df5de",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 30,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 23,
+        "translated_original_heading_anchor_count": 23
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md",
+      "source_sha256": "e7401e14f0c41c7198e7c8a71244fad43493e6e92f993c9088a92da47aff3b37",
+      "translation_sha256": "0ee52ce1130683ba5f9b5606234f1ee3760e4acfe02c9808c8b84f3fd2a3a749",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 39,
+      "code_fence_count": 5,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 14,
+        "translated_original_heading_anchor_count": 14
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/tear-sheet/references/corp-dev.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/tear-sheet/references/corp-dev.md",
+      "source_sha256": "be6033c08f0b90346ab64cc46336294aa644223621135a5aa8da03095be2afc0",
+      "translation_sha256": "97868c511ea8203766e9023c57532989d8a94178c5869fdefbf2fcafe4e0c616",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 30,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 14,
+        "translated_original_heading_anchor_count": 14
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/tear-sheet/references/equity-research.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/tear-sheet/references/equity-research.md",
+      "source_sha256": "4cdec49fad9382dcf291efcf7e23c3195aac3a864b7b853dac51018de882109f",
+      "translation_sha256": "163efa59457efefe9dcd79e2d6f0308ea2e3560835ae4b250fc42bfa04ffe667",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 14,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 14,
+        "translated_original_heading_anchor_count": 14
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/tear-sheet/references/ib-ma.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/tear-sheet/references/ib-ma.md",
+      "source_sha256": "a500e736295105dfb5888c71dd19b61bec55bda15c703c40057949cac79deefa",
+      "translation_sha256": "134f040b2798fcf24297374aa86f9a427798823e0882c2bef8badbdd0e36889a",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 27,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 14,
+        "translated_original_heading_anchor_count": 14
+      }
+    },
+    {
+      "source": "plugins/partner-built/spglobal/skills/tear-sheet/references/sales-bd.md",
+      "translation": "ja/plugins/partner-built/spglobal/skills/tear-sheet/references/sales-bd.md",
+      "source_sha256": "8e54ebdb8b78ff269c216b3581ed328834a695cfd7e57fec48e8801e6be2d003",
+      "translation_sha256": "96c45630858ece2df5358bf2584423572e451927a9d8b10840e82c976648029e",
+      "review_status": "Full prose compared to original and corrected by LLM; no specialist certification or live execution validation",
+      "unique_source_lines_with_revision_events": 28,
+      "code_fence_count": 0,
+      "checks": {
+        "source_sha256_unchanged": true,
+        "original_code_fences_identical": true,
+        "frontmatter_unchanged": true,
+        "heading_count_equal": true,
+        "original_inline_code_preserved_ignoring_whitespace": true,
+        "original_heading_anchor_count": 12,
+        "translated_original_heading_anchor_count": 12
+      }
+    }
+  ],
+  "validation_errors": [],
+  "configuration_appendix_validation": {
+    "source_files": 83,
+    "translated_items": 203,
+    "errors": []
+  },
+  "tracked_original_files_modified": []
+}

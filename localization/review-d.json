@@ -1,0 +1,329 @@
+{
+  "reviewer": "D",
+  "source_commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+  "documents": [
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "カバレッジ開始、類似企業比較、類似取引事例、フットボールフィールド、ターミナル成長率等の誤訳を修正",
+        "百分位/最小値、今後5年、DCF+Compsは最低要件、非上場企業等の意味を修正",
+        "全タスクの依存・停止・否定条件を照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "タスク4の前提条件にタスク1を含む箇所とタスク2・3のみの箇所が混在",
+        "単一タスク制約とタスク1・2の並行実行可が併記",
+        "タスク3分析の拡張子.mdと推奨フォルダ構成の.pdfが不一致",
+        "機関投資家向け品質・公開可能との原文表現は基準の記述であり成果物の実地検証ではない"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/quality-checklist.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "納品禁止条件、投資判断の根拠、株価、決算説明会書き起こし/Seeking Alpha、利益率、統計百分位を修正",
+        "vs./versusの区別、数値一致、モデル対象年数を復元"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "チェックリストの15以上のモデルタブとSKILL.mdの6必須タブに差異",
+        "Calibri/Arial等の指定とSKILL.mdのTimes New Roman指定が不一致",
+        "DOCXとXLS両方納品という記述とタスク5のDOCXのみ納品が不一致"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "投資判断・売上高・利益率・支配権プレミアム・類似企業比較など金融用語を修正",
+        "state/expansion/share gains/fundraisingなどの文脈誤訳とXXbnの単位表現を修正",
+        "数値、表、例、否定条件、既存コードフェンスを照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "1ページ目のInvestment Update/Company Update指定は他文書のINITIATING COVERAGE指定と不一致",
+        "本文見出しのページ範囲が重複し、末尾チャート一覧の対応ページとも異なる",
+        "図キャプションを下に配置する指定は他文書の上配置指定と異なる",
+        "20-30+チャート指定に対し列挙は38件、一部節のチャート数表示と列挙数も異なる",
+        "DOC/DOCXのスキル名表記が混在"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "10-K proseを10,000個の散文とした誤訳を修正",
+        "経営陣の在籍期間/経験年数/取締役、TAM/SAM/SOM、ネットワーク効果、コベナンツ等を修正",
+        "全9節、語数、人数、リスクの内訳および条件を原文照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "8-12リスクという総数に対し4カテゴリの指定内訳合計は11-16件",
+        "経営幹部3-4名に対しCEO/CFOに2名追加という記述が併存",
+        "各節語数の上限合計と全体6,000-8,000語の目安に差異"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "売上高/売上原価/受取利息/法人所得税/希薄化後株式数/短期有利子負債を修正",
+        "列に年度を配置、貸借一致、強気ケース、既存店成長、フルフィルメントなど文脈誤訳を修正",
+        "財務三表の全項目とDCF/シナリオ表の数値・数式・否定条件を照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "前提を各タブ内に記載する指定と別のAssumptionsタブへのリンク指定が混在",
+        "Step1末尾に対応する見出しのない箇条書きと3/4番号が残存",
+        "6必須タブに加え履歴抽出用5タブの別ファイルを作る記述と単一成果物指定の関係が不明瞭",
+        "損益計算書ひな型ではD&AとEBITDA/EBITの配置に計算上の解釈余地あり。数式を補正していない"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "unlevered/exit multiple/terminal margin/米国国債/株主資本コスト/純有利子負債の誤訳を修正",
+        "returns→返品、apply→応募、multiple→複数、target→目標などの文脈誤訳を修正",
+        "統計百分位・DCF最低条件・倍率・投資判断および全表数値/数式/否定を照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "複数の数値例は相互に統一されていない（DCF感度表の基本値、comps価格等）",
+        "シナリオ例の確率加重期待値$59は表示値の20/60/20%と42/59/82からの単純計算$60.2と異なる",
+        "類似取引例の企業価値から株式価値への変換と後段株価表の関係が不明瞭",
+        "原文のWACC/ターミナル比率等の一般的目安は専門検証済のルールではない"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "margin/Trading Comps/scatter/Company 101/事業指標等の誤訳を修正",
+        "翻訳されていたchart_*.pngファイル名とhistorical綴りを原文識別子へ復元",
+        "全コード例を読み、25必須+10任意、4必須図、依存・停止条件・数値を照合。コードは未実行"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "chart34は必須一覧に含まれる一方、そのデータは任意とされる",
+        "必須4図のうち2図以外の追加バリュエーション図は5件だが見出しは6とする",
+        "ファイルサイズ50KBによる300DPI推定は例示上の簡易確認で解像度の独立検証にはならない",
+        "図の番号を掲載順にする指定と固定chart番号との関係に解釈余地あり"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "省略禁止と略語禁止の混同、must be perfectの断定化、幹部/競合数などの誤訳を修正",
+        "製品別/地域別売上高前提、利益率、DSO/DIO/DPOの日数、過去の数値、低位/基本/高位ケースを復元",
+        "納品禁止条件、INITIATING COVERAGE見出し、vs./versus区別、原文の全表・数値・条件を照合"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "成果物末尾はDOCX+XLSX同梱だがSKILL.mdではDOCXのみ納品",
+        "Historical_Financials.xlsxをタスク1出力とする箇所がタスク2手順と不一致",
+        "挿入例の複数chartファイル名・番号がタスク4の一覧と異なる",
+        "各節/フェーズの指定語数合計、全体10,000-15,000語、1ページ1図以上と25-35図などの数量条件が整合しない場合あり",
+        "フォント指定がSKILL.mdのTimes New Romanと不一致",
+        "原文の公開可能/投資判断に十分との記述は品質目標であり独立検証済の保証ではない"
+      ]
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md",
+      "status": "reviewed_source_against_translation",
+      "source_read": "complete_in_order",
+      "changes": [
+        "COGS/営業費用予測/CAPM株主資本コスト/エグジット倍率/類似企業比較/支配権プレミアムを修正",
+        "宇宙・価格/本・重量・取引報酬・応募・保険料等の金融文脈誤訳を修正",
+        "比較表のCompY脱落、会社が買収対象となっている条件、2標準偏差、加重価値を復元。本文数式を原文表記へ復元"
+      ],
+      "numbers_and_negation": "原文の数値・範囲・単位・否定・必須/任意条件を照合。原文の不整合は訳文で修正せず別記。",
+      "preserved": "コードフェンス・数式・URL・API識別子・frontmatter機械値・原文見出しアンカー",
+      "concerns": [
+        "翌年見通しとNTM（今後12か月）の表現が同一視されている",
+        "基本ケース$42-$46の中点と説明される目標株価$45は算術的中点$44と異なる",
+        "WACC/成長率/プレミアム/倍率選択等の一般論は原文の目安として訳し、投資判断向けの専門検証はしていない"
+      ]
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "documents_reviewed": 9,
+    "source_words": 31788,
+    "checks": [
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md",
+        "source_sha256": "9d21c6e460bc3692e19eeda6dc6d425a704b21243bd28af7f13b6f1dd888ed63",
+        "translation_sha256": "22ec9ba90fb301d5341d4f90537e177f3273577183f39ea0da52f953d52011e2",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 16,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 29,
+        "translation_heading_count": 29,
+        "anchor_count": 29,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/quality-checklist.md",
+        "source_sha256": "1bb73c5420e56b3e01109a883ee22ae5b3bacff40722697f4c3fbb070feff913",
+        "translation_sha256": "50888e3a4f46fb21e5cfe0006f0f0f6bfde07c83063d948de2f1e92393048743",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 0,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 14,
+        "translation_heading_count": 14,
+        "anchor_count": 14,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md",
+        "source_sha256": "7b9c98e9fde6622e111b6ec046d2933bf8bad4d17ba3b385a59a30f16e8cc9e4",
+        "translation_sha256": "f51899afb1c0215fc677ebfa07f840a2f7b2219a39a5eb9451895b805c21b327",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 30,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 52,
+        "translation_heading_count": 52,
+        "anchor_count": 52,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md",
+        "source_sha256": "00ec47ca64c1cfdf6e1b74fa8c693633b5e12e98264667b40f2d7dea90b48227",
+        "translation_sha256": "c5c1797a7a5d7e619fdd8a794bc739ea726bb40f2974b0981854a61cc5b2aa1c",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 1,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 24,
+        "translation_heading_count": 24,
+        "anchor_count": 24,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md",
+        "source_sha256": "8e2d203984b37953fd0dc0e9b2dd23ed5aadafd68037e8ff29a0f86d3d3cecc0",
+        "translation_sha256": "dfe17c1f950ac6fd297d1e9c64def73ef407fb31a385fe02a80446fe108dd5d4",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 12,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 39,
+        "translation_heading_count": 39,
+        "anchor_count": 39,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md",
+        "source_sha256": "07e0f13d90f7ee7160b01717d7975516fdfe8811953c152dd4c8f2e7137219d8",
+        "translation_sha256": "776ca5ef5e239996ab734759e4ebb8e0a9b29f0e42c0b913d8b4b06acfbe81bc",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 20,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 37,
+        "translation_heading_count": 37,
+        "anchor_count": 37,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md",
+        "source_sha256": "ab5be625db0687b3fa85ce9177f2f52b7ab7c5127e80c3e2c905a5821602554e",
+        "translation_sha256": "202632a710700f688e878fbccb9f70a21dd6ba43c91a1a54a1faa7b8bb780202",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 21,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 55,
+        "translation_heading_count": 55,
+        "anchor_count": 55,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md",
+        "source_sha256": "7e2f2ccc6bfb54a4be247cd29a9aa95df20a624bb82243980d4f31412e7172ed",
+        "translation_sha256": "d254ab00b4047c6b897e4c8d708890382a46e9488f073869b66f4fb3a76fb520",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 10,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 62,
+        "translation_heading_count": 62,
+        "anchor_count": 62,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      },
+      {
+        "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md",
+        "source_sha256": "fed84dc2b45794cf2abd682db8f346820d61c316cbcd058ec386ea51351f1633",
+        "translation_sha256": "79b93f635849ebb975235340d271b83940bcd6f1b3c5e3cfb14c77c74bf1afb0",
+        "source_matches_pinned_commit": true,
+        "fenced_blocks_count": 14,
+        "fenced_blocks_exact": true,
+        "frontmatter_exact": true,
+        "inline_code_missing": {},
+        "urls_missing": {},
+        "chart_filenames_missing": {},
+        "heading_count": 40,
+        "translation_heading_count": 40,
+        "anchor_count": 40,
+        "anchors_unique": true,
+        "credential_pattern_hits": 0
+      }
+    ],
+    "numeric_note": "英語のK表記は本文で千単位に展開、一部の$M/$B例は日本語の億/万表記へ換算。原文の数値・不等号・必須/任意・否定条件を逐文照合。数式例の算術的疑義は原文を保持してREVIEW-Dへ分離。",
+    "security_scope": "担当9文書の静的確認。資格情報パターン追加なし。原文コードは実行せず、ネット接続・インストール・commit/pushなし。"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "method": "Source-compared complete Japanese translation by Codex; original frontmatter and original fenced code retained",
+  "reviewed_sources": [
+    {
+      "source": "plugins/agent-plugins/earnings-reviewer/agents/earnings-reviewer.md",
+      "translation": "ja/plugins/agent-plugins/earnings-reviewer/agents/earnings-reviewer.md",
+      "source_sha256": "6220361734da66c51871c7201c4347a3ee61eb385a81afa0bc9e2d9228299f3a",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/gl-reconciler/agents/gl-reconciler.md",
+      "translation": "ja/plugins/agent-plugins/gl-reconciler/agents/gl-reconciler.md",
+      "source_sha256": "31f9ef51fdc0c750e24a732c8fd5eac4aa788e8dc9a15428b08b12b4389c1264",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md",
+      "source_sha256": "a7064b5cea13a4dc68f4b0ee36f8aa6efc70d738753c0eb721020bfb65932a9a",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/gl-recon/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/gl-recon/SKILL.md",
+      "source_sha256": "81029137f227ed9119107a659f58ad499cf375f67de834b9f553eddbba9f79e0",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/kyc-screener/agents/kyc-screener.md",
+      "translation": "ja/plugins/agent-plugins/kyc-screener/agents/kyc-screener.md",
+      "source_sha256": "00f6eff2850dbff5ecbd57a26c3f6f0f4fb46d8afb583c0b0c9890ecd4e48550",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md",
+      "source_sha256": "cf826d96f0808195dbd4a10b5933e3824fc9ceef8858d637ad1e5d5bd8d6eef5",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md",
+      "source_sha256": "6da1bcd3eb5ab78db0150856841d68543266c7287858a9ca394c95afd51e80ec",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/market-researcher/agents/market-researcher.md",
+      "translation": "ja/plugins/agent-plugins/market-researcher/agents/market-researcher.md",
+      "source_sha256": "274316fb54f895acc29e589f34d7b506f60d878fc4a477f5403ab99c0611ae6d",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/meeting-prep-agent/agents/meeting-prep-agent.md",
+      "translation": "ja/plugins/agent-plugins/meeting-prep-agent/agents/meeting-prep-agent.md",
+      "source_sha256": "f85c3d1ea0bef2c2c666675bac64bd0a5f511193f20048e879eec199ea4f78a7",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/meeting-prep-agent/skills/client-report/SKILL.md",
+      "translation": "ja/plugins/agent-plugins/meeting-prep-agent/skills/client-report/SKILL.md",
+      "source_sha256": "bbfede2e0dab00ae368767e51576498c9308b4832aaeaaa77f0fee723a90e4d4",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/meeting-prep-agent/skills/client-review/SKILL.md",
+      "translation": "ja/plugins/agent-plugins/meeting-prep-agent/skills/client-review/SKILL.md",
+      "source_sha256": "ad848eac45494aa27263feb5e24e08e4ffd3fb613a747d55956e5b92935a9e98",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/meeting-prep-agent/skills/investment-proposal/SKILL.md",
+      "translation": "ja/plugins/agent-plugins/meeting-prep-agent/skills/investment-proposal/SKILL.md",
+      "source_sha256": "69cecd980f44a61b5e429757aeae5968702106e2154f8afb3dd7ff8b0103f7c2",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/model-builder/agents/model-builder.md",
+      "translation": "ja/plugins/agent-plugins/model-builder/agents/model-builder.md",
+      "source_sha256": "bb43823a4cd31a9ddb1ab227cd58f0c377894fd1414e980ae9034ed0a1c77436",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/month-end-closer/agents/month-end-closer.md",
+      "translation": "ja/plugins/agent-plugins/month-end-closer/agents/month-end-closer.md",
+      "source_sha256": "45eb684b988f046ce07919a082e94cd1e24911dea28047b7e91e9e88f6aaf5a2",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md",
+      "source_sha256": "10974031f91be9048fa6ee7504a41a240322de7b618850b39ba0f68cc0f227ba",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md",
+      "source_sha256": "2d777fd303f933dfb4c15a2140c49eb490f6084dc889cc3e4b95ba2541c224c1",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/variance-commentary/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/variance-commentary/SKILL.md",
+      "source_sha256": "11624574b72c05756f62cb4a2d4888a2511d661ce58b1bf980577e03d9d36ea8",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/pitch-agent/agents/pitch-agent.md",
+      "translation": "ja/plugins/agent-plugins/pitch-agent/agents/pitch-agent.md",
+      "source_sha256": "135797e70fac4cb78f2ac396a91155835d1ddbf99599a3ba9e2f7d5ce78c5fea",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/statement-auditor/agents/statement-auditor.md",
+      "translation": "ja/plugins/agent-plugins/statement-auditor/agents/statement-auditor.md",
+      "source_sha256": "22c01eaf60309826ee0686b1b964a9660f9e9783dff5f40187510ba37e49e73b",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md",
+      "translation": "ja/plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md",
+      "source_sha256": "e0811592d89f02e4a2aa90676939a2781780538bff9dbbf9bba089fcca185f61",
+      "status": "reviewed"
+    },
+    {
+      "source": "plugins/agent-plugins/valuation-reviewer/agents/valuation-reviewer.md",
+      "translation": "ja/plugins/agent-plugins/valuation-reviewer/agents/valuation-reviewer.md",
+      "source_sha256": "fc86b92eccde10781ca04982a62396b04ffca9750296308381b6a336e6436a6a",
+      "status": "reviewed"
+    }
+  ]
+}

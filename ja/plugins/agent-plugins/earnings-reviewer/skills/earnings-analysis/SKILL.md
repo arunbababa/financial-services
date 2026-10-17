@@ -1,0 +1,257 @@
+---
+name: earnings-analysis
+description: Create professional equity research earnings update reports (8-12 pages, 3,000-5,000 words) analyzing quarterly results for companies already under coverage. Fast-turnaround format focusing on beat/miss analysis, key metrics, updated estimates, and revised thesis. Includes 1-3 summary tables and 8-12 charts. Use when user requests "earnings update", "quarterly update", "earnings analysis", "Q1/Q2/Q3/Q4 results", or post-earnings report.
+---
+
+> 非公式日本語訳。機械翻訳初稿をAIが原文と全文照合して校閲しました。[英語原文](../../../../../../plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md)。原文のコード・設定値を保持しています。実データ・法令・投資判断の専門検証は未実施です。
+
+> 説明（日本語）：すでにカバレッジ対象としている企業の四半期決算を分析する、専門的な株式リサーチの決算更新レポート（8～12ページ、英語で3,000～5,000語）を作成します。予想の上振れ・下振れ分析、主要指標、業績予想の更新、投資判断の根拠の見直しに重点を置く、短期間で作成する形式です。概要表1～3点とグラフ8～12点を含みます。「決算更新」「四半期更新」「決算分析」「第1／第2／第3／第4四半期決算」や決算発表後のレポートを求められた場合に使用します。
+
+<a id="equity-research-earnings-update"></a>
+# 株式リサーチの決算更新レポート
+
+機関投資家向けの基準（JPモルガン、ゴールドマン・サックス、モルガン・スタンレーの形式）に従い、すでにカバレッジ対象としている企業の四半期決算を分析する専門的な**決算更新レポート**を作成します。
+
+**主な特徴:**
+- **長さ**: 8 ～ 12 ページ
+- **語数**: 英語で3,000～5,000語
+- **表**: 1 ～ 3 の概要表 (包括的ではありません)
+- **図**: 8 ～ 12 のグラフ
+- **所要時間**: 1～2日（決算発表から24～48時間以内）
+- **読者**: 分析対象企業をすでによく知っている顧客
+- **重点**: 新しい情報 — 予想の上振れ・下振れ、業績予想の更新、投資判断の根拠への影響
+- **フォント**: 全体を通してTimes New Roman (ユーザーが別途指定しない限り)
+
+<a id="when-to-use"></a>
+## いつ使用するか
+
+ユーザーが次のことを要求する場合に使用します。
+- 「[会社]の2024年第3四半期の決算更新レポートを作成してください」
+- 「[会社] の四半期業績を分析する」
+- 「[会社]の決算発表後のレポート」
+- 「[会社] の第 1 四半期/第 2 四半期/第 3 四半期/第 4 四半期の更新」
+
+**次の場合は使用しないでください**
+- ユーザーが「カバレッジ開始レポート」を要求 → 別のスキルを使用
+- ユーザーリクエスト「フラッシュノート」または「クイックテイク」 → フォーマットが異なる
+- 企業がまだカバレッジ対象ではない → 先にカバレッジ開始レポートが必要
+
+<a id="critical-requirements"></a>
+## 重要な要件
+
+<a id="1-speed--timeliness"></a>
+### 1. スピードと適時性
+- 決算発表後24～48時間以内に公表する
+- 新しい情報のみに焦点を当てる
+- 企業の背景説明を長々と繰り返さない
+
+<a id="2-beatmiss-analysis"></a>
+### 2. 予想の上振れ・下振れ分析
+- 冒頭で、企業の実績が予想を上回ったか下回ったかを示す
+- 差異を数値で示す（例：「売上高は予想を1億2,000万ドル、率にして3%上回った」）
+- 実績が予想と異なった理由を説明する
+
+<a id="3-summary-format"></a>
+### 3. 要約フォーマット
+- 表を 1 ～ 3 までに保ちます (概要のみであり、包括的なものではありません)。
+- 損益計算書・キャッシュフロー計算書・貸借対照表の全項目は掲載しない（主要指標のみ）
+- 読者はカバレッジ開始レポートを読んでいると想定する
+
+<a id="4-citations--source-attribution--mandatory"></a>
+### 4. 引用と出典の帰属 ⭐⭐⭐ 必須
+
+**重要**: すべてのデータに、具体的な出典とクリック可能なハイパーリンクを適切に付す。
+
+**すべての図と表に、クリック可能なリンクを使用して特定の引用を含めます:**
+
+```
+Source: Q3 2024 10-Q filed November 8, 2024; Company earnings release
+        [Hyperlink "10-Q" to: https://www.sec.gov/cgi-bin/viewer?accession=...]
+        [Hyperlink "earnings release" to: https://investor.company.com/news/q3-2024]
+```
+
+日本語補訳：出典例は「2024年11月8日提出の2024年第3四半期Form 10-Q、企業の決算発表資料」。表示テキスト「10-Q」をSECの例示URLへ、「earnings release」を企業IRの例示URLへ、それぞれハイパーリンクとして設定する。
+
+**ハイパーリンクは Word でどのように表示されるべきか:**
+- ドキュメント名は青色の下線付きのクリック可能なリンクとして表示されます
+- 読者は Ctrl+クリックしてソースを直接開くことができます
+- プレーンテキスト URL ではありません - 表示テキストを含む書式設定されたハイパーリンク
+
+**必要なソースのリスト:**
+
+すべての決算更新レポートで、次の資料を引用する。
+- ✅ 決算発表資料（日付とURL付き）
+- ✅ Form 10-Q（提出日とEDGARへのリンク付き）
+- ✅ 決算説明会の書き起こし（日付付き）
+- ✅ 投資家向けプレゼンテーション/補足資料 (利用可能な場合)
+- ✅ 市場コンセンサス予想の出典（Bloomberg、FactSetなど、日付付き）
+- ✅ 従来の会社業績見通し（ガイダンス）（前四半期の資料から）
+
+**クリック可能なハイパーリンクを含む参照セクション:**
+
+レポートの最後に「出典」セクションを含めます。
+
+```
+SOURCES & REFERENCES
+
+Earnings Materials (Q3 2024):
+• Earnings Release (November 7, 2024)
+  [Hyperlink entire line to: https://investor.company.com/news/q3-2024-earnings]
+
+• Form 10-Q (Filed November 8, 2024)
+  [Hyperlink to: https://www.sec.gov/cgi-bin/viewer?accession=...]
+
+• Earnings Call Transcript (November 7, 2024)
+  [Hyperlink to: https://seekingalpha.com/article/...]
+
+• Investor Presentation (November 7, 2024)
+  [Hyperlink to: https://investor.company.com/presentations/q3-2024.pdf]
+```
+
+日本語補訳：「出典と参考資料」の決算関連資料（2024年第3四半期）として、11月7日の決算発表資料、11月8日提出のForm 10-Q、11月7日の決算説明会の書き起こし、11月7日の投資家向けプレゼンテーションを列挙する。各項目全体または資料名を、直下の対応する例示URLにリンクする。
+
+**検証チェックリスト:**
+- [ ] すべての図には特定の文書と日付が記載された出典が含まれています
+- [ ] すべてのテーブルにはドキュメント参照を含むソースが含まれています
+- [ ] 予想の上振れ・下振れ分析に、コンセンサス予想の出典と日付を記載している
+- [ ] ガイダンスの変更は現在および以前のガイダンスソースを引用しています
+- [ ] 主要な統計には脚注が付いています
+- [ ] ソースセクションには、URL 付きのすべての資料がリストされます。
+- [ ] すべての URL はクリック可能なハイパーリンクです (プレーンテキストではありません)
+- [ ] すべての SEC 提出書類は EDGAR ビューアにハイパーリンクされています
+
+<a id="5-updated-estimates"></a>
+### 5. 業績予想の更新
+- 結果に基づいて将来予測を更新する
+- 従来予想と新予想を明確に比較する
+- 何が変わったのか、なぜ変わったのか説明する
+
+<a id="high-level-workflow"></a>
+## 高レベルのワークフロー
+
+決算更新レポートの作成は、次の5段階で進める。
+
+<a id="phase-1-data-collection-30-60-minutes"></a>
+### フェーズ 1: データ収集 (30 ～ 60 分)
+
+**🚨🚨🚨 重要: トレーニング データが古くなっています 🚨🚨🚨**
+
+**開始する前に、次の 4 つのステップを順番に完了してください:**
+1. **今日の日付を確認** - 現在の日付を書き留めます
+2. **最新決算を検索** - Web検索で「[会社] latest earnings results」を調べる
+3. **日付を検証** - 決算発表日が直近3か月以内であることを確認する
+4. **書き起こしの日付を確認** - 決算説明会の書き起こしの日付が決算発表日と一致していることを確認する
+
+**よくある間違い**: 最新資料を検索せず、学習データに含まれる古い決算説明会を使用すること。
+
+**要件:**
+- ✅ 最新の決算を検索する。学習データに依存しない
+- ✅ 今日の日付と見つかった決算発表日を書き留める
+- ✅ 決算発表日が今日からさかのぼって3か月以内であることを確認する
+- ✅ 書き起こしの日付が決算発表日と一致することを確認する
+- ✅ 日付が一致しない場合、または古い（3か月超） 場合は、再度検索してください。
+
+**詳細な検索手順と検証手順については、[references/workflow.md](../../../../vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md)** を参照してください。
+
+<a id="phase-2-analysis-2-3-hours"></a>
+### フェーズ 2: 分析 (2 ～ 3 時間)
+- 各主要指標の予想の上振れ・下振れ分析
+- セグメント/地域/製品の内訳
+- 利益率と会社業績見通しの分析
+- 財務モデルと業績予想を更新する
+
+**詳細な分析フレームワークについては、[references/workflow.md](../../../../vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md)** を参照してください。
+
+<a id="phase-3-chart-generation-1-2-hours"></a>
+### フェーズ 3: チャートの生成 (1 ～ 2 時間)
+四半期推移と新しい情報に焦点を当てたグラフを8～12点作成する。
+- 四半期売上高の推移
+- 四半期ごとの EPS の推移
+- 四半期利益率の推移
+- セグメント別・地域別売上高
+- 主要な事業指標
+- 予想の上振れ・下振れの要約
+- 業績予想の修正
+- バリュエーションのグラフ
+
+**チャートの仕様については、[references/workflow.md](../../../../vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md)** を参照してください。
+
+<a id="phase-4-report-creation-2-3-hours"></a>
+### フェーズ 4: レポート作成 (2 ～ 3 時間)
+特定の構造を持つ 8 ～ 12 ページの DOCX レポートを作成します。
+
+**完全なページごとのテンプレートと書式設定要件については、[references/report-structure.md](../../../../vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md)** を参照してください。
+
+**高レベルの構造:**
+- ページ 1: 投資評価と目標株価を含む決算概要
+- ページ 2 ～ 3: 詳細な結果分析
+- ページ 4 ～ 5: 主要な指標とガイダンス
+- ページ 6 ～ 7: 投資判断の根拠を更新
+- ページ 8 ～ 10: バリュエーションと業績予想
+- ページ 11 ～ 12: 付録 (オプション)
+
+<a id="phase-5-quality-check--delivery-30-minutes"></a>
+### フェーズ 5: 品質チェックと納品 (30 分)
+納品前に、内容・書式・正確性・適時性を確認する。
+
+**品質チェックリストと避けるべき一般的な間違いについては、[references/best-practices.md](../../../../vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md)** を参照してください。
+
+<a id="output-specification"></a>
+## 出力仕様
+
+**主要成果物**: DOCX レポート (8 ～ 12 ページ)
+**ファイル名**: `[Company]_Q[Quarter]_[Year]_Earnings_Update.docx`
+**例**: `Nike_Q2_FY24_Earnings_Update.docx`
+
+**内容:**
+- ページ 1: 投資評価、目標株価、主要なポイントを含む概要
+- ページ 2 ～ 3: 詳細な結果分析
+- ページ 4 ～ 5: 主要な指標とガイダンス
+- ページ 6 ～ 7: 投資判断の根拠の評価を更新
+- ページ 8 ～ 10: バリュエーションと業績予想
+- ページ 11 ～ 12: 付録 (オプション)
+- 8-12 埋め込みチャート
+- 1-3 要約表
+- クリック可能なハイパーリンクを含む必要な資料をすべて記載した出典セクション
+
+**オプションの成果物**: XLS モデルの更新 (決算更新レポートでは任意)
+
+<a id="key-differences-from-initiation-report"></a>
+## カバレッジ開始レポートとの主な違い
+
+| 項目 | 決算更新レポート | カバレッジ開始レポート |
+|--------|----------------|-------------------|
+| **長さ** | 8～12ページ | 30～50ページ |
+| **語数（英語）** | 3,000-5,000 | 10,000-15,000 |
+| **表** | 概要表1～3点 | 詳細表12～20点 |
+| **図** | 8-12 | 25-35 |
+| **作成期間** | 1～2日 | 3～6週間 |
+| **対象範囲** | 四半期決算 | 企業全体 |
+| **重点** | 新しい情報 | 全般 |
+| **会社の背景** | 簡単な説明 | 6～10ページ |
+| **XLSモデル** | オプション | 必須 |
+
+<a id="resources"></a>
+## リソース
+
+<a id="referencesworkflowmd"></a>
+### references/workflow.md
+データ収集、分析、チャート生成、レポート作成の段階的な手順を含むフェーズ 1 ～ 5 の詳細な手順。
+
+<a id="referencesreport-structuremd"></a>
+### references/report-structure.md
+DOCX レポートの完全なページごとのテンプレート、表形式、および形式要件。
+
+<a id="referencesbest-practicesmd"></a>
+### references/best-practices.md
+良い見出しと悪い見出しの例、成功のヒント、避けるべきよくある間違い、包括的な品質チェックリスト。
+
+<a id="dependencies"></a>
+## 依存関係
+
+**必須:**
+- チャート生成用の Python (matplotlib、pandas、seaborn)
+- レポート作成のためのDOCXスキル
+
+**オプション:**
+- モデル更新のためのXLSスキル（決算更新レポートでは必須ではない）

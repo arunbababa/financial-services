@@ -1,0 +1,681 @@
+{
+  "reviewer": "strategy_ja",
+  "documents": [
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+      "status": "pending"
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+      "status": "pending"
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+      "status": "pending"
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md",
+      "status": "pending"
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/earnings-preview/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "308a49e2078fddd1422a7e88f56706001a5b9e10c5df71e0b25f9b862ab62eb9",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/model-update/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "85d06ff615c0f79bb6a349a885d6100b32cddb1ca0dd48ffa7882d0fd13d6790",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/morning-note/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "10734dce6781d9124f7e47c93f49db696297bd503f41f8ee80e03c3c79f59ed3",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 7,
+        "retained_anchor_count": 7
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/idea-generation/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "27d2dadcc0936cb175bb654cc72ad46b867bb942630b306ac7616a156105f584",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "0c4b57ec92846a8d736ec651ccb1a28c5933394d7e354f51801f258c83046a9b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/ic-memo/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "f82b94653f42d2170378dc8f6e3f8e404ee4df3acfc0bdfeb9a399baca92c10b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 6,
+        "retained_anchor_count": 6
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/portfolio-monitoring/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "36fcdc11f387f98839e9dfa91375b119a8c2185c5a5b8df88c7e28ca75825822",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 7,
+        "retained_anchor_count": 7
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/returns-analysis/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "f424dce0b487633b320fd58ca59c3407f79464fce99b8309bee0ea2ccf349aa5",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/CONNECTORS.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "339a1857b70b120e8d6b4d8ba8b4f333f3bf9a5f8809acb3020558a10842f32d",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 13,
+        "retained_anchor_count": 13
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/README.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "cae44b969d602c1cfc9e617a773ab6575b42c3ef4110dd4624c4654c15e85a96",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 7,
+        "retained_anchor_count": 7
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/analyze-bond-basis.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "379398172005bfe600abdf050ef828c3191a39b6dd4f23eda087c1ffa13e4904",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/analyze-bond-rv.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "83babb33b9fee6f4c13bd15cf0fde59161f2aa5ce027dfde7ee78090e4e77360",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/analyze-fx-carry.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "e6cb1fc133548d216a6e9d3830e87c55355348231ee96d596a9d46f59262ba4f",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/analyze-option-vol.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "2ac1eeaacc6f9f4bc6ece2ff55d193cd3bf99085dff5e9dbe15e5a3294c9c71b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/analyze-swap-curve.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "c2f3fb3e4ebf2f9e72f7f535afee3e5ae35014d0ce354e58622946bc5e4f9dfd",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/macro-rates.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "b6ffb2fed0241e09cd349c261186dbcfa35276a10ed2ce879eef60df4e1a514f",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/research-equity.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "167acf111792c06486242fd6fbab302363580aa4de6330afd410c609b5b3858b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/commands/review-fi-portfolio.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "2f59407b9605c1af9630ca214dd65cc9c2d6fa86fb2674e333d9d79aefdc5ca1",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 10,
+        "retained_anchor_count": 10
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/bond-futures-basis/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "dc066caa38ed3df1cff06596cd984966ba0a7808142ffce2cc67ef0ec3985025",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/bond-relative-value/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "12dd93bb34f62fcaaaa45ff5db113c05b34298fad42e0e30e73924d6759dd584",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/equity-research/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "23b081ba25881885dfebc75510258240492ec4f3f8196f9ff4f0e5659b889518",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/fixed-income-portfolio/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "864ff98a84f33799c36deb5e4b0bf55dfd259dd34253b65d083273c3ef7039fc",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/fx-carry-trade/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "cb12d90e83f7a196fe30b0b08852f3ad5748942068aea7dd0bd27d3f2979beba",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/macro-rates-monitor/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "2e10b1a0ee7221502e03596e72a6bc6ba59523dc5c359e9e1b0b85cfba1082be",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 11,
+        "retained_anchor_count": 11
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/option-vol-analysis/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "e562434bd37a8bb0ac05dc7201eae8c0144b15d689458203552c368c6f824822",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/partner-built/lseg/skills/swap-curve-strategy/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "b2cec9971bfd879e7997a7954512de7968da5a5b781af7d9460949ec75b1edde",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/catalysts.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "cc0516125671cbed22a4cd517222db9196ff7b57dda304794862f5ac37fda726",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/earnings-preview.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "09cd231ce1c3c0331affd45b7333535f4815469448de3da9d4b441c5c02c6a68",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/earnings.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "190a38f2cd3ad9e73c00d9e23d784413a1ca17b534c4c2dc12be78ff83c928cf",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/initiate.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "79aec8ff9b1e7e767d35cb8a967b883848b06375d1e9b10b561e447f0342398b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/model-update.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "d956957b2b910a0f698f169679988b4c8093828e1faaecf48d00c2401a67eec6",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/morning-note.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "c805c09aec736127ddfd42a40a5b532cfe2f5b6a2ec409a6c53f94fcaaf37c27",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/screen.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "7860bf384ded1153c3a000e398f292d64fb49e7545b5bbcec18b3e3fffd0c04c",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/sector.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "e02d49412a17304daa8e4534ed85fcafc264deb286426d3ba1ef63d33ce0a7fc",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/commands/thesis.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "91ba05fd4bd756c5c5dffd57d9222ef2a1e2db072c70b4661d618d2740b78e6b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/catalyst-calendar/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "a0c1a61742a7e6a1dcbfd18f6ea9a24ed7a96d8dbb27ffeabea613879e9bed50",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/equity-research/skills/thesis-tracker/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "65894363131a65ba2372d5896939f21eeb6821e2f5eddcdead09c92e44854aea",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/ai-readiness.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "4b26d1c39b0acbc62aba8fd601095386dc920be62590f4fc1920de2a822ea7a1",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/dd-checklist.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "2eeb2ac8e5339130770812d9ed704cc13f61dd02db5561bfe505792230af9fca",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/dd-prep.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "5b099173ce5f65f92d76dd9dce59c6b0bafa6c8f1788b8ef303d878717b98426",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/ic-memo.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "d5f9241770001008cf77c27cc88ca13c4a4ba96c5b8343e6f5d35f19a9df6037",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/portfolio.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "4c3a7d6b4e2d955ae9d6560e3448d5cc77a296a1675d92eaf2553f9c64361aa0",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/returns.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "df8d8572f26c6cae875f8ced1f9f03dbb61af40951d52050c820713d8661f845",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/screen-deal.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "007fd31d5f357eeacf892a0f57334603aded5a2ba28c90cdb7e54b9399afe4dd",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/source.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "c87691f96879aea999cd101178f145595bc19d78b56bfcecf26e90ca76eff732",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/unit-economics.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "83867cb170638e2ed92150386edf0420b64fa3e06dae5dfea2b29ed1479f23a4",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/commands/value-creation.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "92e3f009a22efd57b88151df9cc0f5639b6ba39b4e23892e57fe3dcf485710b7",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 0,
+        "retained_anchor_count": 0
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/ai-readiness/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "4f8765e61105e156d515bfdf47abb4f498d90f64ec65c12bf70e023ddeb3b822",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/dd-checklist/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "bc7b0da82ea82f32d5b76e281b2ca85f2480d26ffe52ddccaab708c329ae0ed4",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 9,
+        "retained_anchor_count": 9
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/dd-meeting-prep/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "92699e611afbb3d86515af1a835bb173ea3a6ed0215bc4ceef940215085c27f3",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 11,
+        "retained_anchor_count": 11
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/deal-screening/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "c366b7709a974b015b9964deee76276633f415b9899fb89abdc5bab0a4bedf4b",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 7,
+        "retained_anchor_count": 7
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/deal-sourcing/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "80bc1976652214b426e6eab6a96dcc8ceb2566f7856d9b84bed565567d7de180",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 8,
+        "retained_anchor_count": 8
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/unit-economics/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "eea4dda27259dd3fdb5c8c8071299451e38719ac7c20a9510945fac0873c2b69",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 13,
+        "retained_anchor_count": 13
+      }
+    },
+    {
+      "source": "plugins/vertical-plugins/private-equity/skills/value-creation-plan/SKILL.md",
+      "status": "reviewed",
+      "note": "原文全文を読んで日本語本文の意味を照合・必要箇所を修正。実データ検証なし。",
+      "translation_sha256": "426a048a7571621ddd14df6c9af3407c7ebf04170a4ce01df3794bc2bbb78e92",
+      "validation": {
+        "code_fences_preserved": true,
+        "frontmatter_preserved": true,
+        "original_heading_count": 12,
+        "retained_anchor_count": 12
+      }
+    }
+  ],
+  "summary": {
+    "assigned_sources": 58,
+    "reviewed": 54,
+    "pending": 4,
+    "pending_sources": [
+      "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+      "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+      "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+      "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md"
+    ],
+    "scope": "54 complete sources fully read and retranslated; 4 earnings-analysis sources untouched; initiating-coverage 9 sources delegated to D and excluded"
+  }
+}

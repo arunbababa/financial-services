@@ -1,0 +1,617 @@
+[
+  {
+    "source": ".githooks/pre-commit",
+    "supplement": "localization/code-notes/.githooks/pre-commit.md",
+    "items": 7
+  },
+  {
+    "source": "CLAUDE.md",
+    "supplement": "localization/code-notes/CLAUDE.md.md",
+    "items": 21
+  },
+  {
+    "source": "README.md",
+    "supplement": "localization/code-notes/README.md.md",
+    "items": 10
+  },
+  {
+    "source": "claude-for-msft-365-install/.claude/skills/verify/SKILL.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/.claude/skills/verify/SKILL.md.md",
+    "items": 1
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/access-policies.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/access-policies.md.md",
+    "items": 11
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/bootstrap.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/bootstrap.md.md",
+    "items": 14
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/debug.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/debug.md.md",
+    "items": 14
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/export-data.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/export-data.md.md",
+    "items": 23
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/manifest.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/manifest.md.md",
+    "items": 5
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/setup.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/setup.md.md",
+    "items": 11
+  },
+  {
+    "source": "claude-for-msft-365-install/commands/update-user-attrs.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/commands/update-user-attrs.md.md",
+    "items": 4
+  },
+  {
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/README.md",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/README.md.md",
+    "items": 3
+  },
+  {
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/app.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/app.py.md",
+    "items": 10
+  },
+  {
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/config.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/config.py.md",
+    "items": 21
+  },
+  {
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/get_tenant_id.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/get_tenant_id.py.md",
+    "items": 4
+  },
+  {
+    "source": "claude-for-msft-365-install/examples/python-bootstrap/mint_dev_token.py",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/examples/python-bootstrap/mint_dev_token.py.md",
+    "items": 1
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/build-manifest.mjs",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/build-manifest.mjs.md",
+    "items": 72
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/clear-addin-cache.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/clear-addin-cache.ps1.md",
+    "items": 37
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/clear-addin-cache.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/clear-addin-cache.sh.md",
+    "items": 48
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/export-addin-data.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/export-addin-data.ps1.md",
+    "items": 93
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/export-addin-data.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/export-addin-data.sh.md",
+    "items": 97
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/sideload-addin.ps1",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/sideload-addin.ps1.md",
+    "items": 7
+  },
+  {
+    "source": "claude-for-msft-365-install/scripts/sideload-addin.sh",
+    "supplement": "localization/code-notes/claude-for-msft-365-install/scripts/sideload-addin.sh.md",
+    "items": 16
+  },
+  {
+    "source": "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/SKILL.md.md",
+    "items": 13
+  },
+  {
+    "source": "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/best-practices.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/best-practices.md.md",
+    "items": 19
+  },
+  {
+    "source": "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/report-structure.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/report-structure.md.md",
+    "items": 114
+  },
+  {
+    "source": "plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/workflow.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/earnings-reviewer/skills/earnings-analysis/references/workflow.md.md",
+    "items": 42
+  },
+  {
+    "source": "plugins/agent-plugins/earnings-reviewer/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/earnings-reviewer/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/gl-reconciler/skills/break-trace/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/gl-reconciler/skills/break-trace/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/gl-reconciler/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/gl-reconciler/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/kyc-screener/skills/kyc-doc-parse/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/kyc-screener/skills/kyc-doc-parse/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/kyc-screener/skills/kyc-rules/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/kyc-screener/skills/kyc-rules/SKILL.md.md",
+    "items": 3
+  },
+  {
+    "source": "plugins/agent-plugins/kyc-screener/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/kyc-screener/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/market-researcher/skills/competitive-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/market-researcher/skills/competitive-analysis/SKILL.md.md",
+    "items": 35
+  },
+  {
+    "source": "plugins/agent-plugins/market-researcher/skills/competitive-analysis/references/schemas.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/market-researcher/skills/competitive-analysis/references/schemas.md.md",
+    "items": 3
+  },
+  {
+    "source": "plugins/agent-plugins/market-researcher/skills/comps-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/market-researcher/skills/comps-analysis/SKILL.md.md",
+    "items": 39
+  },
+  {
+    "source": "plugins/agent-plugins/market-researcher/skills/pptx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/market-researcher/skills/pptx-author/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/meeting-prep-agent/skills/pptx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/meeting-prep-agent/skills/pptx-author/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/model-builder/skills/3-statement-model/references/formulas.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/model-builder/skills/3-statement-model/references/formulas.md.md",
+    "items": 165
+  },
+  {
+    "source": "plugins/agent-plugins/model-builder/skills/comps-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/model-builder/skills/comps-analysis/SKILL.md.md",
+    "items": 39
+  },
+  {
+    "source": "plugins/agent-plugins/model-builder/skills/dcf-model/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/model-builder/skills/dcf-model/SKILL.md.md",
+    "items": 83
+  },
+  {
+    "source": "plugins/agent-plugins/model-builder/skills/dcf-model/scripts/validate_dcf.py",
+    "supplement": "localization/code-notes/plugins/agent-plugins/model-builder/skills/dcf-model/scripts/validate_dcf.py.md",
+    "items": 56
+  },
+  {
+    "source": "plugins/agent-plugins/model-builder/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/model-builder/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/month-end-closer/skills/accrual-schedule/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/month-end-closer/skills/accrual-schedule/SKILL.md.md",
+    "items": 3
+  },
+  {
+    "source": "plugins/agent-plugins/month-end-closer/skills/roll-forward/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/month-end-closer/skills/roll-forward/SKILL.md.md",
+    "items": 8
+  },
+  {
+    "source": "plugins/agent-plugins/month-end-closer/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/month-end-closer/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/3-statement-model/references/formulas.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/3-statement-model/references/formulas.md.md",
+    "items": 165
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/comps-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/comps-analysis/SKILL.md.md",
+    "items": 39
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/dcf-model/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/dcf-model/SKILL.md.md",
+    "items": 83
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/dcf-model/scripts/validate_dcf.py",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/dcf-model/scripts/validate_dcf.py.md",
+    "items": 56
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/deck-refresh/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/deck-refresh/SKILL.md.md",
+    "items": 15
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/ib-check-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/ib-check-deck/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/ib-check-deck/references/report-format.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/ib-check-deck/references/report-format.md.md",
+    "items": 32
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/ib-check-deck/scripts/extract_numbers.py",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/ib-check-deck/scripts/extract_numbers.py.md",
+    "items": 60
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/pitch-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/pitch-deck/SKILL.md.md",
+    "items": 17
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/calculation-standards.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/calculation-standards.md.md",
+    "items": 23
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/formatting-standards.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/formatting-standards.md.md",
+    "items": 9
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/xml-reference.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/pitch-deck/reference/xml-reference.md.md",
+    "items": 7
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/pptx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/pptx-author/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/agent-plugins/pitch-agent/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/pitch-agent/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/statement-auditor/skills/nav-tieout/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/statement-auditor/skills/nav-tieout/SKILL.md.md",
+    "items": 7
+  },
+  {
+    "source": "plugins/agent-plugins/statement-auditor/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/statement-auditor/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/agent-plugins/valuation-reviewer/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/agent-plugins/valuation-reviewer/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/partner-built/lseg/README.md",
+    "supplement": "localization/code-notes/plugins/partner-built/lseg/README.md.md",
+    "items": 1
+  },
+  {
+    "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/earnings-preview-beta/SKILL.md.md",
+    "items": 92
+  },
+  {
+    "source": "plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/earnings-preview-beta/report-template.md.md",
+    "items": 83
+  },
+  {
+    "source": "plugins/partner-built/spglobal/skills/funding-digest/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/funding-digest/SKILL.md.md",
+    "items": 27
+  },
+  {
+    "source": "plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md",
+    "supplement": "localization/code-notes/plugins/partner-built/spglobal/skills/tear-sheet/SKILL.md.md",
+    "items": 27
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/commands/earnings.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/commands/earnings.md.md",
+    "items": 34
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/SKILL.md.md",
+    "items": 13
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/best-practices.md.md",
+    "items": 19
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/report-structure.md.md",
+    "items": 114
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/earnings-analysis/references/workflow.md.md",
+    "items": 42
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/SKILL.md.md",
+    "items": 128
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/assets/report-template.md.md",
+    "items": 179
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task1-company-research.md.md",
+    "items": 36
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task2-financial-modeling.md.md",
+    "items": 193
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task3-valuation.md.md",
+    "items": 169
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task4-chart-generation.md.md",
+    "items": 174
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/task5-report-assembly.md.md",
+    "items": 180
+  },
+  {
+    "source": "plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/equity-research/skills/initiating-coverage/references/valuation-methodologies.md.md",
+    "items": 43
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/commands/comps.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/commands/comps.md.md",
+    "items": 15
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/commands/dcf.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/commands/dcf.md.md",
+    "items": 18
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/3-statement-model/references/formulas.md.md",
+    "items": 165
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/SKILL.md.md",
+    "items": 35
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/schemas.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/competitive-analysis/references/schemas.md.md",
+    "items": 3
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/comps-analysis/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/comps-analysis/SKILL.md.md",
+    "items": 39
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/dcf-model/SKILL.md.md",
+    "items": 83
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/dcf-model/scripts/validate_dcf.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/dcf-model/scripts/validate_dcf.py.md",
+    "items": 56
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/deck-refresh/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/deck-refresh/SKILL.md.md",
+    "items": 15
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/report-format.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/references/report-format.md.md",
+    "items": 32
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/scripts/extract_numbers.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ib-check-deck/scripts/extract_numbers.py.md",
+    "items": 60
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/ppt-template-creator/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/ppt-template-creator/SKILL.md.md",
+    "items": 105
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/pptx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/pptx-author/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/SKILL.md.md",
+    "items": 35
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/output-patterns.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/output-patterns.md.md",
+    "items": 28
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/workflows.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/references/workflows.md.md",
+    "items": 11
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/init_skill.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/init_skill.py.md",
+    "items": 41
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/package_skill.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/package_skill.py.md",
+    "items": 22
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/quick_validate.py",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/skill-creator/scripts/quick_validate.py.md",
+    "items": 37
+  },
+  {
+    "source": "plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/financial-analysis/skills/xlsx-author/SKILL.md.md",
+    "items": 2
+  },
+  {
+    "source": "plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/accrual-schedule/SKILL.md.md",
+    "items": 3
+  },
+  {
+    "source": "plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/break-trace/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/nav-tieout/SKILL.md.md",
+    "items": 7
+  },
+  {
+    "source": "plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/fund-admin/skills/roll-forward/SKILL.md.md",
+    "items": 8
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/README.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/README.md.md",
+    "items": 14
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/commands/one-pager.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/commands/one-pager.md.md",
+    "items": 14
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/datapack-builder/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/datapack-builder/SKILL.md.md",
+    "items": 10
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/SKILL.md.md",
+    "items": 17
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/calculation-standards.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/calculation-standards.md.md",
+    "items": 23
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/formatting-standards.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/formatting-standards.md.md",
+    "items": 9
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/xml-reference.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/pitch-deck/reference/xml-reference.md.md",
+    "items": 7
+  },
+  {
+    "source": "plugins/vertical-plugins/investment-banking/skills/strip-profile/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/investment-banking/skills/strip-profile/SKILL.md.md",
+    "items": 31
+  },
+  {
+    "source": "plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/operations/skills/kyc-doc-parse/SKILL.md.md",
+    "items": 4
+  },
+  {
+    "source": "plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md",
+    "supplement": "localization/code-notes/plugins/vertical-plugins/operations/skills/kyc-rules/SKILL.md.md",
+    "items": 3
+  },
+  {
+    "source": "scripts/check.py",
+    "supplement": "localization/code-notes/scripts/check.py.md",
+    "items": 51
+  },
+  {
+    "source": "scripts/deploy-managed-agent.sh",
+    "supplement": "localization/code-notes/scripts/deploy-managed-agent.sh.md",
+    "items": 66
+  },
+  {
+    "source": "scripts/orchestrate.py",
+    "supplement": "localization/code-notes/scripts/orchestrate.py.md",
+    "items": 5
+  },
+  {
+    "source": "scripts/sync-agent-skills.py",
+    "supplement": "localization/code-notes/scripts/sync-agent-skills.py.md",
+    "items": 4
+  },
+  {
+    "source": "scripts/test-cookbooks.sh",
+    "supplement": "localization/code-notes/scripts/test-cookbooks.sh.md",
+    "items": 9
+  },
+  {
+    "source": "scripts/validate.py",
+    "supplement": "localization/code-notes/scripts/validate.py.md",
+    "items": 1
+  },
+  {
+    "source": "scripts/version_bump.py",
+    "supplement": "localization/code-notes/scripts/version_bump.py.md",
+    "items": 26
+  }
+]
